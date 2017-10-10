@@ -1,122 +1,137 @@
-<<<<<<< HEAD
-                                                          /*******************design til header**********/
+/*******************design til header**********/
 
-                                                      .header {
-                                                          font-family: 'Oswald', sans-serif;
-                                                      }
-                                                      /*******************design til header slut**********/
-                                                      /*******************design til om **********/
+.header {
+    font-family: 'Oswald', sans-serif;
+}
 
-                                                      #om h1 {
-                                                          font-family: 'Oswald', sans-serif;
-                                                      }
+/*******************design til header slut**********/
 
-                                                      #om p {
-                                                          font-family: 'Open Sans Condensed', sans-serif;
-                                                      }
-                                                      /*******************design til om slut **********/
-                                                      /*******************design til vores hold **********/
+/*******************design til om **********/
 
-                                                      #vores_hold h1 {
-                                                          font-family: 'Oswald', sans-serif;
-                                                      }
+#om h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
-                                                      #vores_hold p {
-                                                          font-family: 'Open Sans Condensed', sans-serif;
-                                                      }
-                                                      /*******************design til vores hold slut **********/
-                                                      /*******************design til logn in **********/
+#om p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
-                                                      #login h1 {
-                                                          font-family: 'Oswald', sans-serif;
-                                                      }
+/*******************design til om slut **********/
 
-                                                      #login b {
-                                                          font-family: 'Oswald', sans-serif;
-                                                      }
-                                                      /*******************design til log in slut  **********/
+/*******************design til vores hold **********/
 
-                                                      input[type=text],
-                                                      select,
-                                                      textarea {
-                                                          width: 100%;
-                                                          padding: 12px;
-                                                          border: 1px solid #ccc;
-                                                          border-radius: 7px;
-                                                          box-sizing: border-box;
-                                                          margin-top: 6px;
-                                                          margin-bottom: 16px;
-                                                          resize: vertical
-                                                      }
+#vores_hold h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
-                                                      input[type=submit] {
-                                                          background-color: #40648C;
-                                                          color: white;
-                                                          padding: 2%;
-                                                          border: solid;
-                                                          border-color: #E8E8E8;
-                                                          border-radius: 45%;
-                                                          cursor: pointer;
-                                                      }
-                                                      /* når man holder mus over */
+#vores_hold p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
-                                                      input[type=submit]:hover {
-                                                          background-color: black;
-                                                      }
-                                                      /* background color */
+/*******************design til vores hold slut **********/
 
-                                                      .container {
-                                                          border-radius: 5px;
-                                                          background-color: #40648C;
-                                                          padding: 20px;
-                                                          /*******************design til login og kontakt slut **********/
-=======
-                /*******************design til om **********/
+/*******************design til logn in **********/
 
-                #om h1 {
-                    font-family: 'Oswald', sans-serif;
-                }
+#login h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
 
-                #om p {
-                    font-family: 'Open Sans Condensed', sans-serif;
-                }
+#login b {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
 
-                /*******************design til login og kontakt **********/
+/*******************design til log in slut  **********/
 
-                input[type=text],
-                select,
-                textarea {
-                    width: 100%;
-                    padding: 12px;
-                    border: 1px solid #ccc;
-                    border-radius: 7px;
-                    box-sizing: border-box;
-                    margin-top: 6px;
-                    margin-bottom: 16px;
-                    resize: vertical
-                }
+/*************** sponsorer***************/
 
-                input[type=submit] {
-                    background-color: #40648C;
-                    color: white;
-                    padding: 2%;
-                    border: solid;
-                    border-color: #E8E8E8;
-                    border-radius: 45%;
-                    cursor: pointer;
-                }
+#sponsorer h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
-                /* når man holder mus over */
+#sponsorer p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
-                input[type=submit]:hover {
-                    background-color: black;
-                }
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
 
-                /* background color */
+input[type=submit] {
+    background-color: #40648C;
+    color: white;
+    padding: 2%;
+    border: solid;
+    border-color: #E8E8E8;
+    border-radius: 45%;
+    cursor: pointer;
+}
 
-                .container {
-                    border-radius: 5px;
-                    background-color: #40648C;
-                    padding: 20px;
-                    /*******************design til login og kontakt slut **********/
->>>>>>> origin/master
+/* når man holder mus over */
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+/* background color */
+
+.container {
+    border-radius: 5px;
+    background-color: #40648C;
+    padding: 20px;
+    /*******************design til login og kontakt slut **********/
+    =======/*******************design til om **********/
+    #om h1 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #om p {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /*******************design til login og kontakt **********/
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+
+    input[type=submit] {
+        background-color: #40648C;
+        color: white;
+        padding: 2%;
+        border: solid;
+        border-color: #E8E8E8;
+        border-radius: 45%;
+        cursor: pointer;
+    }
+
+    /* når man holder mus over */
+    input[type=submit]:hover {
+        background-color: black;
+    }
+
+    /* background color */
+    .container {
+        border-radius: 5px;
+        background-color: #40648C;
+        padding: 20px;
+        /*******************design til login og kontakt slut **********/
+        > > > > > > > origin/master
