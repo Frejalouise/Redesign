@@ -71,7 +71,7 @@ header nav a:hover {
 
 #om p {
     font-family: 'Open Sans Condensed', sans-serif;
-    border-top: 1px solid black;
+    border-top: 3px solid black;
 }
 
 #om h3 {
@@ -179,6 +179,7 @@ input[type=submit] {
 #kontakt img {
     border: 1px black solid;
     margin: 0 25px;
+    border-radius: 30px;
 }
 
 #kontakt h1 {
