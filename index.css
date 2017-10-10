@@ -1,10 +1,66 @@
     /*******************design til header**********/
 
     .header {
-        font-family: 'Oswald', sans-serif;
+        padding: 1em;
     }
 
+    header nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 4px;
+        display: block;
+
+    }
+
+    header nav {
+        text-align: right;
+        font-family: 'Oswald', sans-serif;
+        margin: 0 5vw 0 0;
+
+    }
+
+    header nav a:hover {
+        color: #025aa6;
+    }
+
+    @media screen and (min-width: 680px) {
+        header nav a {
+            display: inline-block;
+        }
+    }
+
+
     /*******************design til header slut**********/
+
+    /*EMILIE ÆNDRER*/
+
+    .sectionwrapper {
+        margin: 75px;
+    }
+
+    #om .sectionwrapper {
+        text-align: center;
+        border: 1px black solid;
+    }
+
+    #vores_hold .sectionwrapper {
+        text-align: center;
+    }
+
+    #vores_hold .content_bot {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #sponsorer .sectionwrapper {
+        text-align: center;
+    }
+
+    #sidste_nyt h1 {
+        text-align: center;
+    }
+
+    /*EMILIE ÆNDRER*/
 
     /*******************design til om **********/
 
@@ -15,6 +71,15 @@
     #om p {
         font-family: 'Open Sans Condensed', sans-serif;
         border-top: 1px solid black;
+    }
+
+    #om h3 {
+        font-family: 'Dancing Script', cursive;
+    }
+
+    #om sectionwrapper {
+        background-color: white;
+
     }
 
     /*******************design til om slut **********/
@@ -36,6 +101,19 @@
     }
 
     /*******************design til vores hold slut **********/
+
+    /*******************sidste nyt start **********/
+
+    #sidste_nyt h1 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #sidste_nyt li {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+
+    /*******************sidste nyt slut **********/
 
     /*************** sponsorer***************/
 
@@ -80,6 +158,18 @@
         cursor: pointer;
     }
 
+    /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
+
+    #kontakt {
+        background-color: #40648C;
+    }
+
+    #kontakt h1 {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        text-align: center;
+    }
+
     #login h1 {
         font-family: 'Oswald', sans-serif;
         color: white;
@@ -104,7 +194,6 @@
 
     .sectionwrapper {
         border-radius: 5px;
-        background-color: #40648C;
         padding: 20px;
     }
 
