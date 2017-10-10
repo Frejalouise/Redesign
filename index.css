@@ -195,6 +195,7 @@ input[type=submit] {
 
 #login .column {
     background-color: #40648C;
+    margin: 10px;
 }
 
 #login h1 {
