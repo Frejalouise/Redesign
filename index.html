@@ -6,34 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LNI</title>
     <link rel="stylesheet" href="index.css">
-    <nav class="menu">
-        <!-- en nav menu--->
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
 </head>
 
 <body>
     <header>
-
-
-
-        <!--sections-->
-        <section id="afsnit1"></section>
-        <section id="afsnit2"></section>
-        <section id="afsnit3"></section>
-        <section id="afsnit4"></section>
-        <div class="test"></div>
-        <div class="test2"></div>
-        <div class="test3"></div>
-
-
-
+        <nav class="header">
+            <a href="#forside">FORSIDE</a> /
+            <a href="#om">OM LNI</a> /
+            <a href="#vores_hold">VORES HOLD</a> /
+            <a href="#seneste_nyt">SIDSTE NYT</a> /
+            <a href="#kontakt">KONTAKT OS</a> /
+            <a href="#login">LOGIN</a>
+            <a href="#Sponsorer">SPONSORER</a>
+        </nav>
     </header>
 
+    <section id=splash>
+        <div id="logo">
+            <img src="#" alt="logo">
+        </div>
+    </section>
+
+    <!--forside-->
+
+    <section id="forside">
+
+        <div class="sectionwrapper">
+            <div id="content">
+            </div>
+        </div>
+    </section>
+    <!---om---->
+    <section id="om">
+
+        <div class="sectionwrapper">
+            <div id="content">
+            </div>
+        </div>
+    </section>
+    <!--hold--->
+    <section id="vores_hold">
+        <div class="sectionwrapper">
+            <div id="content">
+                <div class="content_top"></div>
+
+                <div id="content_bot">
+                    <div id="content_content">
+                    </div>
+                    <div id="content_content">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--seneste ny-->
+    <section id="seneste_nyt">
+        <div class="sectionwrapper">
+            <div id="content">
+            </div>
+        </div>
+    </section>
+    <!--kontakt men skal måske laves om--->
+    <section id="kontakt">
+        <div class="container">
+            <form action="/action_page.php">
+
+
+                <input type="text" id="name1" name="firstname" placeholder="Your name..">
+
+
+                <input type="text" id="name2" name="lastname" placeholder="Your last name..">
+                <input type="text" id="name3" name="lastname" placeholder="Email">
+
+                <input type="text" id="fname" name="firstname" placeholder="#">
+
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </section>
+
+    <!--login men skal måske laves om--->
+    <section id=login>
+        <form action="/action_page.php">
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <input type="checkbox" checked="checked"> husk mig
+            </div>
+
+            <div class="container">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+
+    </section>
+    <!---SPONSORER--->
+    <section id="Sponsorer"></section>
 </body>
 
 </html>

@@ -1,1 +1,36 @@
+                    /* Style inputs with type="text", select elements and textareas */
 
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 7px;
+                    box-sizing: border-box;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical
+                }
+                /* Style til knappen submit */
+
+                input[type=submit] {
+                    background-color: #0066ff;
+                    color: white;
+                    padding: 2%;
+                    border: solid;
+                    border-color: aqua;
+                    border-radius: 45%;
+                    cursor: pointer;
+                }
+                /* hover */
+
+                input[type=submit]:hover {
+                    background-color: black;
+                }
+                /* background color */
+
+                .container {
+                    border-radius: 5px;
+                    background-color: #cceeff;
+                    padding: 20px;
