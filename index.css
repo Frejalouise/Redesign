@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*******************design til header**********/
 
 .header {
@@ -135,3 +136,109 @@ input[type=submit]:hover {
         padding: 20px;
         /*******************design til login og kontakt slut **********/
         > > > > > > > origin/master
+=======
+                        /*******************design til header**********/
+
+                .header {
+                    font-family: 'Oswald', sans-serif;
+                }
+                /*******************design til header slut**********/
+                /*******************design til om **********/
+
+                #om h1 {
+                    font-family: 'Oswald', sans-serif;
+                }
+
+                #om p {
+                    font-family: 'Open Sans Condensed', sans-serif;
+                }
+                /*******************design til om slut **********/
+                /*******************design til vores hold **********/
+
+                #vores_hold h1 {
+                    font-family: 'Oswald', sans-serif;
+                }
+
+                #vores_hold p {
+                    font-family: 'Open Sans Condensed', sans-serif;
+                }
+                /*******************design til vores hold slut**********/
+                /*******************design til logn in**********/
+
+                #login h1 {
+                    font-family: 'Oswald', sans-serif;
+                }
+
+                #login b {
+                    font-family: 'Oswald', sans-serif;
+                }
+                /*******************design til log in slut**********/
+
+                input[type=text],
+                select,
+                textarea {
+                    width: 100%;
+                    padding: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 7px;
+                    box-sizing: border-box;
+                    margin-top: 6px;
+                    margin-bottom: 16px;
+                    resize: vertical
+                }
+
+                input[type=submit] {
+                    background-color: #40648C;
+                    color: white;
+                    padding: 2%;
+                    border: solid;
+                    border-color: #E8E8E8;
+                    border-radius: 45%;
+                    cursor: pointer;
+                }
+                /* når man holder mus over */
+
+                input[type=submit]:hover {
+                    background-color: black;
+                }
+                /* background color */
+
+                .container {
+                    border-radius: 5px;
+                    background-color: #40648C;
+                    padding: 20px;
+                    /*******************design til login og kontakt slut **********/
+                    /*******************design til login og kontakt **********/
+                    input[type=text],
+                    select,
+                    textarea {
+                        width: 100%;
+                        padding: 12px;
+                        border: 1px solid #ccc;
+                        border-radius: 7px;
+                        box-sizing: border-box;
+                        margin-top: 6px;
+                        margin-bottom: 16px;
+                        resize: vertical
+                    }
+                    input[type=submit] {
+                        background-color: #40648C;
+                        color: white;
+                        padding: 2%;
+                        border: solid;
+                        border-color: #E8E8E8;
+                        border-radius: 45%;
+                        cursor: pointer;
+                    }
+                    /* når man holder mus over */
+                    input[type=submit]:hover {
+                        background-color: black;
+                    }
+                    /* background color */
+                    .container {
+                        border-radius: 5px;
+                        background-color: #40648C;
+                        padding: 20px;
+                        /*******************design til login og kontakt slut **********/
+                        >>>>>>>origin/master
+>>>>>>> origin/master
