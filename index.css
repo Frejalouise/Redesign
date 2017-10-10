@@ -9,14 +9,12 @@
         color: black;
         padding-right: 4px;
         display: block;
-
     }
 
     header nav {
         text-align: right;
         font-family: 'Oswald', sans-serif;
         margin: 0 5vw 0 0;
-
     }
 
     header nav a:hover {
@@ -28,10 +26,7 @@
             display: inline-block;
         }
     }
-
-
     /*******************design til header slut**********/
-
     /*EMILIE ÆNDRER*/
 
     .sectionwrapper {
@@ -59,9 +54,7 @@
     #sidste_nyt h1 {
         text-align: center;
     }
-
     /*EMILIE ÆNDRER*/
-
     /*******************design til om **********/
 
     #om h1 {
@@ -79,11 +72,8 @@
 
     #om sectionwrapper {
         background-color: white;
-
     }
-
     /*******************design til om slut **********/
-
     /*******************design til vores hold **********/
 
     #vores_hold {
@@ -99,9 +89,7 @@
         font-family: 'Open Sans Condensed', sans-serif;
         color: white;
     }
-
     /*******************design til vores hold slut **********/
-
     /*******************sidste nyt start **********/
 
     #sidste_nyt h1 {
@@ -111,10 +99,7 @@
     #sidste_nyt li {
         font-family: 'Open Sans Condensed', sans-serif;
     }
-
-
     /*******************sidste nyt slut **********/
-
     /*************** sponsorer***************/
 
     #sponsorer h1 {
@@ -130,9 +115,7 @@
     #sponsorer {
         background-color: #40648C;
     }
-
     /*************** sponsorer slut***************/
-
     /*************** design til login***************/
 
     input[type=text],
@@ -157,11 +140,19 @@
         border-radius: 45%;
         cursor: pointer;
     }
-
     /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
     #kontakt {
         background-color: #40648C;
+    }
+
+    #kontakt .content_bot {
+        text-align: center;
+    }
+
+    #kontakt img {
+        border: 1px black solid;
+        margin: 0 25px;
     }
 
     #kontakt h1 {
@@ -180,25 +171,30 @@
         color: white;
     }
 
-    #login column {
+    #login .column {
         background-color: #40648C;
     }
 
-    /*************** design til login slut***************/
+    #login h1 {
+        color: black;
+        text-align: center;
+    }
 
+    #login .sectionwrapper {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    /*************** design til login slut***************/
     /********* når man holder mus over knappen send *********/
 
     input[type=submit]:hover {
         background-color: #033C72;
     }
-
     /********* når man holder mus over knappen send slut *********/
-
     /*********** bagrunden *********/
 
     .sectionwrapper {
         border-radius: 5px;
         padding: 20px;
     }
-
     /*********** bagrunden slut *********/
