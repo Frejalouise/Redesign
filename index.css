@@ -1,45 +1,71 @@
-                /*******************design til om **********/
+                                                          /*******************design til header**********/
 
-            #om h1 {
-                font-family: 'Oswald', sans-serif;
-            }
+                                                      .header {
+                                                          font-family: 'Oswald', sans-serif;
+                                                      }
+                                                      /*******************design til header slut**********/
+                                                      /*******************design til om **********/
 
-            #om p {
-                font-family: 'Open Sans Condensed', sans-serif;
-            }
-            /*******************design til login og kontakt **********/
+                                                      #om h1 {
+                                                          font-family: 'Oswald', sans-serif;
+                                                      }
 
-            input[type=text],
-            select,
-            textarea {
-                width: 100%;
-                padding: 12px;
-                border: 1px solid #ccc;
-                border-radius: 7px;
-                box-sizing: border-box;
-                margin-top: 6px;
-                margin-bottom: 16px;
-                resize: vertical
-            }
+                                                      #om p {
+                                                          font-family: 'Open Sans Condensed', sans-serif;
+                                                      }
+                                                      /*******************design til om slut **********/
+                                                      /*******************design til vores hold **********/
 
-            input[type=submit] {
-                background-color: #40648C;
-                color: white;
-                padding: 2%;
-                border: solid;
-                border-color: #E8E8E8;
-                border-radius: 45%;
-                cursor: pointer;
-            }
-            /* når man holder mus over */
+                                                      #vores_hold h1 {
+                                                          font-family: 'Oswald', sans-serif;
+                                                      }
 
-            input[type=submit]:hover {
-                background-color: black;
-            }
-            /* background color */
+                                                      #vores_hold p {
+                                                          font-family: 'Open Sans Condensed', sans-serif;
+                                                      }
+                                                      /*******************design til vores hold slut **********/
+                                                      /*******************design til logn in **********/
 
-            .container {
-                border-radius: 5px;
-                background-color: #40648C;
-                padding: 20px;
-                /*******************design til login og kontakt slut **********/
+                                                      #login h1 {
+                                                          font-family: 'Oswald', sans-serif;
+                                                      }
+
+                                                      #login b {
+                                                          font-family: 'Oswald', sans-serif;
+                                                      }
+                                                      /*******************design til log in slut  **********/
+
+                                                      input[type=text],
+                                                      select,
+                                                      textarea {
+                                                          width: 100%;
+                                                          padding: 12px;
+                                                          border: 1px solid #ccc;
+                                                          border-radius: 7px;
+                                                          box-sizing: border-box;
+                                                          margin-top: 6px;
+                                                          margin-bottom: 16px;
+                                                          resize: vertical
+                                                      }
+
+                                                      input[type=submit] {
+                                                          background-color: #40648C;
+                                                          color: white;
+                                                          padding: 2%;
+                                                          border: solid;
+                                                          border-color: #E8E8E8;
+                                                          border-radius: 45%;
+                                                          cursor: pointer;
+                                                      }
+                                                      /* når man holder mus over */
+
+                                                      input[type=submit]:hover {
+                                                          background-color: black;
+                                                      }
+                                                      /* background color */
+
+                                                      .container {
+                                                          border-radius: 5px;
+                                                          background-color: #40648C;
+                                                          padding: 20px;
+                                                          /*******************design til login og kontakt slut **********/
