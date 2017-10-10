@@ -95,10 +95,11 @@
     <section id=login>
         <form action="/action_page.php">
             <div class="container">
-                <label><b>Username</b></label>
+                <h1>Instruktør - login</h1>
+                <label><b>Brugernavn:</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
 
-                <label><b>Password</b></label>
+                <label><b>Adgabgskode:</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
 
                 <button type="submit">Login</button>
@@ -106,11 +107,28 @@
             </div>
 
             <div class="container">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
+                <span class="psw">Glemt <a href="#">adgangskode?</a></span>
             </div>
         </form>
+        <!---------------- MEDLEMSLOGIN------------------->
 
+        <form action="/action_page.php">
+            <div class="container">
+                <h1>Medlemslogin</h1>
+                <label><b>E-mail el. mobil:</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Adgangskode:</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <input type="checkbox" checked="checked"> husk mig
+            </div>
+
+            <div class="container">
+                <span class="psw">Glemt <a href="#">adgangskode?</a></span>
+            </div>
+        </form>
     </section>
     <!---SPONSORER--->
     <section id="Sponsorer"></section>
