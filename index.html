@@ -22,6 +22,7 @@
             <a href="#login">LOGIN</a>
             <a href="#Sponsorer">SPONSORER</a>
         </nav>
+
     </header>
 
     <section id=splash>
@@ -34,16 +35,10 @@
 
     <section id="forside">
 
-        <div class="sectionwrapper">
-            <div id="content">
-            </div>
-        </div>
     </section>
     <!-------------------om LNI-------------------->
     <section id="om">
         <div class="sectionwrapper">
-            <div id="content">
-            </div>
 
             <h1> Om LNI</h1>
             <p>
@@ -53,52 +48,56 @@
             </p>
         </div>
     </section>
-    <!--hold--->
+    <!--------- vores hold------------->
     <section id="vores_hold">
         <div class="sectionwrapper">
-            <div id="content">
+            <div id="content_top">
                 <h1>Vores hold</h1>
                 <p>
                     Hos Lille Næstved Idrætsforening tilbyder vi en masse forskellige hold indenfor både gymnastik og badminton. <br>Vi har hold der tilegner sig de helt små, som kan gå til gymnastik med mor og far. Yderligere har vi gymnastikhold og badmintonhold til begyndere og/eller øvede i alle aldre. <br> Hvis du er interesseret i at vide mere om gymnastik eller badminton hos LNI, så klik på henholdsvis "Gymnastik" eller "Badminton" nedenfor.
                 </p>
-                <div class="content_top"></div>
-
-                <div id="content_bot">
-                    <div id="content_content">
-                    </div>
-                    <div id="content_content">
-                    </div>
+            </div>
+            <div class="content_bot">
+                <div class="column">
+                </div>
+                <div class="column">
                 </div>
             </div>
-
         </div>
-
     </section>
 
-    <!--seneste nyt-->
-    <section id="seneste_nyt">
+    <!--sidstste nyt-->
+    <section id="sidste_nyt">
         <div class="sectionwrapper">
-            <div id="content">
+            <div class="column">
+            </div>
+            <div class="column">
             </div>
         </div>
     </section>
+
+
     <!--kontakt men skal måske laves om--->
+
+
     <section id="kontakt">
-        <div class="container">
+        <div class="sectionwrapper">
             <form action="/action_page.php">
+                <div class="content_top">
+                    <div class="column"> <input type="text" id="name1" name="dit_navn" placeholder="Dit navn"></div>
 
+                    <div class="column"><input type="text" id="name2" name="lastname" placeholder="Din e-mail"></div>
 
-                <input type="text" id="name1" name="dit_navn" placeholder="Dit navn">
+                    <div class="column">
+                        <input type="text" id="name3" name="lastname" placeholder="Dit telefonnummer"></div>
+                </div>
 
+                <div class="content_mid"><input type="text" id="fname" name="firstname" placeholder="Emne">
 
-                <input type="text" id="name2" name="lastname" placeholder="Din e-mail">
-                <input type="text" id="name3" name="lastname" placeholder="Dit telefonnummer">
+                    <textarea id="subject" name="subject" placeholder="Din besked" style="height:200px"></textarea>
 
-                <input type="text" id="fname" name="firstname" placeholder="Emne">
-
-                <textarea id="subject" name="subject" placeholder="Din besked" style="height:200px"></textarea>
-
-                <input type="submit" value="Send">
+                    <input type="submit" value="Send"></div>
+                <div class="content_bot"></div>
 
             </form>
         </div>
@@ -106,45 +105,47 @@
 
     <!--login men skal måske laves om--->
     <section id=login>
-        <form action="/action_page.php">
-            <div class="container">
-                <h1>Instruktør - login</h1>
-                <label><b>Brugernavn:</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-
-                <label><b>Adgangskode:</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <button type="submit">Login</button>
-
-            </div>
-
-
-        </form>
-        <!---------------- MEDLEMSLOGIN------------------->
 
         <form action="/action_page.php">
-            <div class="container">
-                <h1>Medlemslogin</h1>
-                <label><b>E-mail el. mobil:</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+            <div class="sectionwrapper">
+                <div class="column">
+                    <h1>Instruktør - login</h1>
+                    <label><b>Brugernavn:</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
 
-                <label><b>Adgangskode:</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label><b>Adgangskode:</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
 
-                <button type="submit">Login</button>
+                    <button type="submit">Login</button>
+                </div>
 
+                <div class="column">
+                    <h1>Medlemslogin</h1>
+                    <label><b>E-mail el. mobil:</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label><b>Adgangskode:</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit">Login</button>
+
+                </div>
             </div>
-
-
         </form>
     </section>
+
     <!---SPONSORER--->
     <section id="sponsorer">
+        <div class="sectionwrapper">
 
-        <h1>TAK TIL VORES SPONSORER</h1>
-        <p>SparNordNæstved // SkibingeSkadedyrsservice // Pro lbutikken // MalermesterHansLarsen // Næstved Glas // Rema 1000 // v. Jørgensen VVS // Super-Brugsen i Fensmark // Klemas Trapper // Palles Fragt // MENY Østergade // SJEB // City Bogføring // LeCa Hundesalon</p>
+            <h1>TAK TIL VORES SPONSORER</h1>
+            <p>SparNordNæstved // SkibingeSkadedyrsservice // Pro lbutikken // MalermesterHansLarsen // Næstved Glas // Rema 1000 // v. Jørgensen VVS // Super-Brugsen i Fensmark // Klemas Trapper // Palles Fragt // MENY Østergade // SJEB // City Bogføring // LeCa Hundesalon</p>
+        </div>
     </section>
-</body>
 
+    <footer></footer>
+
+</body>
 </html>
+
+
