@@ -180,6 +180,10 @@
         color: white;
     }
 
+    #login column {
+        background-color: #40648C;
+    }
+
     /*************** design til login slut***************/
 
     /********* når man holder mus over knappen send *********/
