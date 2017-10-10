@@ -12,26 +12,39 @@
 
     #om p {
         font-family: 'Open Sans Condensed', sans-serif;
+        border-top: 1px solid black;
     }
     /*******************design til om slut **********/
     /*******************design til vores hold **********/
 
+    #vores_hold {
+        background-color: #40648C;
+    }
+
     #vores_hold h1 {
         font-family: 'Oswald', sans-serif;
+        color: white;
     }
 
     #vores_hold p {
         font-family: 'Open Sans Condensed', sans-serif;
+        color: white;
     }
     /*******************design til vores hold slut **********/
     /*************** sponsorer***************/
 
     #sponsorer h1 {
         font-family: 'Oswald', sans-serif;
+        color: white;
     }
 
     #sponsorer p {
         font-family: 'Open Sans Condensed', sans-serif;
+        color: white;
+    }
+
+    #sponsorer {
+        background-color: #40648C;
     }
     /*************** sponsorer slut***************/
     /*************** design til login***************/
@@ -69,15 +82,17 @@
         color: white;
     }
     /*************** design til login slut***************/
-    /* når man holder mus over */
+    /********* når man holder mus over knappen send *********/
 
     input[type=submit]:hover {
-        background-color: black;
+        background-color: #033C72;
     }
-    /* background color */
+    /********* når man holder mus over knappen send slut *********/
+    /*********** bagrunden *********/
 
     .container {
         border-radius: 5px;
         background-color: #40648C;
         padding: 20px;
     }
+    /*********** bagrunden slut *********/
