@@ -1,15 +1,3 @@
-/****joachim****/
-
-* {
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-
 /*******************design til header**********/
 
 .header {
@@ -31,9 +19,6 @@ header nav {
 
 header nav a:hover {
     color: #025aa6;
-    /******joachim*****/
-    text-decoration: underline;
-    /******Joachim****/
 }
 
 @media screen and (min-width: 680px) {
@@ -41,6 +26,7 @@ header nav a:hover {
         display: inline-block;
     }
 }
+
 
 
 /*******************design til header slut**********/
@@ -232,6 +218,18 @@ input[type=submit] {
     text-align: center;
 }
 
+#kontakt .column_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:
+}
+
+
+
+
+
+
+
 #login b {
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -256,7 +254,6 @@ input[type=submit] {
 #login h2 {
     font-family: 'Oswald', sans-serif;
 }
-
 
 /*************** design til login slut***************/
 
