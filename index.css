@@ -1,3 +1,15 @@
+/****joachim****/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
 /*******************design til header**********/
 
 .header {
@@ -19,6 +31,9 @@ header nav {
 
 header nav a:hover {
     color: #025aa6;
+    /******joachim*****/
+    text-decoration: underline;
+    /******Joachim****/
 }
 
 @media screen and (min-width: 680px) {
