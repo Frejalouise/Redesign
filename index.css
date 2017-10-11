@@ -35,11 +35,9 @@
     /*******************design til header slut**********/
     /*******************forside start**********/
 
-    #forside {
-        background-color: #40648C;
-    }
+
 #forside .splash {
-    height: 45vw;
+    height: 50vw;
     width: 100vw;
 }
     /*******************forside slut**********/
@@ -69,7 +67,7 @@
     .img_hold {
         height: 15vw;
         width: 15vw;
-        border: 8px #5c92a3 solid;
+        border: 8px black solid;
         border-radius: 150px;
         margin: 0 35px
     }
@@ -315,3 +313,16 @@
         text-align: center;
     }
     /*********** footer slut *********/
+
+
+
+/**
+HTML!!!!
+
+<h1 class="lni">Lille Næstved Idrætsforening</h1><!-->
+             <!-->
+        <div id="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+
+**/
