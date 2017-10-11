@@ -178,6 +178,7 @@
 
     #sponsorer {
         background-color: #40648C;
+        padding: 5px 0;
     }
     /*************** sponsorer slut***************/
     /*************** design til login***************/
@@ -311,6 +312,7 @@
 
     footer {
         text-align: center;
+        font-family: 'Open Sans Condensed'
     }
     /*********** footer slut *********/
 
