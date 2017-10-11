@@ -38,6 +38,10 @@
     #forside {
         background-color: #40648C;
     }
+#forside .splash {
+    height: 45vw;
+    width: 100vw;
+}
     /*******************forside slut**********/
     /*EMILIE ÆNDRER*/
 
@@ -115,7 +119,10 @@
 
     #vores_hold {
         background-color: #40648C;
+
     }
+
+
 
     #vores_hold h1 {
         font-family: 'Oswald', sans-serif;
@@ -138,18 +145,26 @@
         font-family: 'Open Sans Condensed', sans-serif;
     }
 
-    #sidste_nyt .sectionwrapper {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    #sidste_nyt .column {
-        display: flex;
+#sidste_nyt .sectionwrapper {
+    display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-basis: 400px;
         flex-grow: 1px;
-    }
+    margin: 20px auto;
+}
+
+#sidste_nyt .column {
+    margin: 20px 100px;
+
+}
+
+#sidste_nyt hr {
+    border-top: 3px solid black;
+    width: 1000px;
+}
+
+
     /*******************sidste nyt slut **********/
     /*************** sponsorer***************/
 
@@ -225,6 +240,16 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        flex-basis: 400px;
+        flex-grow: 1px;
+    }
+#kontakt .column {
+    flex-basis: 400px;
+        flex-grow: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    height: auto;
     }
 
     #subject {
@@ -237,10 +262,7 @@
         color: white;
     }
 
-    #login .column {
-        background-color: #40648C;
-        margin: 10px;
-    }
+
 
     #login h1 {
         color: black;
@@ -251,6 +273,12 @@
     #login .sectionwrapper {
         display: flex;
         flex-wrap: nowrap;
+        justify-content: center;
+    }
+#login .column {
+        background-color: #40648C;
+        margin: 10px 10px;
+    padding: 50px;
     }
 
     #login h2 {
