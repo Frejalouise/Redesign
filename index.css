@@ -148,26 +148,21 @@ header nav a:hover {
 
 #sidste_nyt h1 {
     font-family: 'Oswald', sans-serif;
+    justify-content: center;
 }
 
 #sidste_nyt li {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/*
 #sidste_nyt .sectionwrapper {
     display: flex;
     flex-wrap: nowrap;
-    /******************************************************* Freja har ændret************************************/
-    justify-content: center;
 }
-
+*/
 
 /**************************************************** Freja har ændret******************************************/
-
-#sidste_nyt .column {
-    margin: 40px;
-}
-
 
 /*******************sidste nyt slut **********/
 
