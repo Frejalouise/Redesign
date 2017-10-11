@@ -224,7 +224,7 @@
     #kontakt .column_top {
         display: flex;
         flex-wrap: wrap;
-        justify-content:
+        justify-content: center;
     }
 
     #login b {
