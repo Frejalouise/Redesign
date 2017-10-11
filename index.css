@@ -312,7 +312,8 @@
 
     footer {
         text-align: center;
-        font-family: 'Open Sans Condensed'
+        font-family: 'Open Sans Condensed';
+        margin: 10px
     }
     /*********** footer slut *********/
 
