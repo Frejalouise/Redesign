@@ -27,9 +27,25 @@ header nav a:hover {
     }
 }
 
+.lni {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+
 
 
 /*******************design til header slut**********/
+
+/*******************forside start**********/
+
+#forside {
+    background-color: #40648C;
+}
+
+/*******************forside slut**********/
 
 /*EMILIE ÆNDRER*/
 
@@ -58,7 +74,7 @@ header nav a:hover {
     height: 15vw;
     width: 15vw;
     border: 8px #5c92a3 solid;
-    border-radius: 100px;
+    border-radius: 150px;
     margin: 0 35px
 }
 
@@ -87,7 +103,15 @@ header nav a:hover {
 
 #om p {
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#om B {
+    font-family: 'Oswald', sans-serif;
+}
+
+#om hr {
     border-top: 3px solid black;
+    width: 300px;
 }
 
 #om h3 {
@@ -195,6 +219,11 @@ input[type=submit] {
 #login .column {
     padding: 25px 25px 55px 25px;
 
+}
+
+#login hr {
+    border-top: 3px solid black;
+    width: 300px;
 }
 
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
