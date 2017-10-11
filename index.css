@@ -30,7 +30,6 @@ header nav a:hover {
 
 /*******************design til header slut**********/
 
-
 /*EMILIE ÆNDRER*/
 
 .sectionwrapper {
@@ -48,7 +47,24 @@ header nav a:hover {
 
 #vores_hold .content_bot {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 400px;
+    flex-grow: 1px;
+}
+
+.img_hold {
+    height: 15vw;
+    width: 15vw;
+    border: 8px #5c92a3 solid;
+    border-radius: 100px;
+    margin: 0 35px
+}
+
+#vores_hold h3 {
+    text-align: center;
+    font-family: oswald;
+    color: white;
 }
 
 #sponsorer .sectionwrapper {
@@ -61,7 +77,6 @@ header nav a:hover {
 
 
 /*EMILIE ÆNDRER*/
-
 
 /*******************design til om **********/
 
@@ -85,7 +100,6 @@ header nav a:hover {
 
 /*******************design til om slut **********/
 
-
 /*******************design til vores hold **********/
 
 #vores_hold {
@@ -105,7 +119,6 @@ header nav a:hover {
 
 /*******************design til vores hold slut **********/
 
-
 /*******************sidste nyt start **********/
 
 #sidste_nyt h1 {
@@ -118,7 +131,6 @@ header nav a:hover {
 
 
 /*******************sidste nyt slut **********/
-
 
 /*************** sponsorer***************/
 
@@ -138,7 +150,6 @@ header nav a:hover {
 
 
 /*************** sponsorer slut***************/
-
 
 /*************** design til login***************/
 
@@ -166,6 +177,11 @@ input[type=submit] {
 }
 
 
+#login .column {
+    padding: 25px 25px 55px 25px;
+
+}
+
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
 #kontakt {
@@ -177,7 +193,6 @@ input[type=submit] {
 }
 
 #kontakt img {
-    border: 1px black solid;
     margin: 0 25px;
     border-radius: 30px;
 }
@@ -216,7 +231,6 @@ input[type=submit] {
 
 /*************** design til login slut***************/
 
-
 /********* når man holder mus over knappen send *********/
 
 input[type=submit]:hover {
@@ -225,7 +239,6 @@ input[type=submit]:hover {
 
 
 /********* når man holder mus over knappen send slut *********/
-
 
 /*********** bagrunden *********/
 
@@ -236,3 +249,11 @@ input[type=submit]:hover {
 
 
 /*********** bagrunden slut *********/
+
+/*********** footer start *********/
+
+footer {
+    text-align: center;
+}
+
+/*********** footer slut *********/
