@@ -227,6 +227,11 @@
         justify-content: center;
     }
 
+    #subject {
+        width: 100%;
+        height: 20vw;
+    }
+
     #login b {
         font-family: 'Oswald', sans-serif;
         color: white;
