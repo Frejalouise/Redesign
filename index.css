@@ -31,13 +31,11 @@ header nav a:hover {
     font-family: 'Oswald', sans-serif;
     text-align: left;
     font-size: 20px;
-
 }
 
 
-
-
 /*******************design til header slut**********/
+
 
 /*******************forside start**********/
 
@@ -45,7 +43,9 @@ header nav a:hover {
     background-color: #40648C;
 }
 
+
 /*******************forside slut**********/
+
 
 /*EMILIE ÆNDRER*/
 
@@ -95,6 +95,7 @@ header nav a:hover {
 
 /*EMILIE ÆNDRER*/
 
+
 /*******************design til om **********/
 
 #om h1 {
@@ -125,6 +126,7 @@ header nav a:hover {
 
 /*******************design til om slut **********/
 
+
 /*******************design til vores hold **********/
 
 #vores_hold {
@@ -144,6 +146,7 @@ header nav a:hover {
 
 /*******************design til vores hold slut **********/
 
+
 /*******************sidste nyt start **********/
 
 #sidste_nyt h1 {
@@ -155,6 +158,7 @@ header nav a:hover {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+
 /*
 #sidste_nyt .sectionwrapper {
     display: flex;
@@ -162,9 +166,12 @@ header nav a:hover {
 }
 */
 
+
 /**************************************************** Freja har ændret******************************************/
 
+
 /*******************sidste nyt slut **********/
+
 
 /*************** sponsorer***************/
 
@@ -184,6 +191,7 @@ header nav a:hover {
 
 
 /*************** sponsorer slut***************/
+
 
 /*************** design til login***************/
 
@@ -210,16 +218,15 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
 #login .column {
     padding: 25px 25px 55px 25px;
-
 }
 
 #login hr {
     border-top: 3px solid black;
     width: 300px;
 }
+
 
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
@@ -248,12 +255,6 @@ input[type=submit] {
     justify-content:
 }
 
-
-
-
-
-
-
 #login b {
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -279,7 +280,20 @@ input[type=submit] {
     font-family: 'Oswald', sans-serif;
 }
 
+#login .login_knap {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+#login .kodeord {
+    border-radius: 3px;
+    border: 5px;
+    height: 18px;
+}
+
+
 /*************** design til login slut***************/
+
 
 /********* når man holder mus over knappen send *********/
 
@@ -289,6 +303,7 @@ input[type=submit]:hover {
 
 
 /********* når man holder mus over knappen send slut *********/
+
 
 /*********** bagrunden *********/
 
@@ -300,10 +315,12 @@ input[type=submit]:hover {
 
 /*********** bagrunden slut *********/
 
+
 /*********** footer start *********/
 
 footer {
     text-align: center;
 }
+
 
 /*********** footer slut *********/
