@@ -10,6 +10,50 @@
 }
 
 
+<<<<<<< HEAD
+    header nav a:hover {
+        color: #025aa6;
+        text-decoration: underline;
+    }
+    /*******************design til header slut**********/
+    /*******************forside start**********/
+
+
+
+    /*******************design til header slut**********/
+    /*******************forside start**********/
+
+    #forside {
+        background-image: url(img/mobiltest.jpg);
+        width: 100vw;
+        height: 167vw;
+/*        height: 59vw;*/
+        background-repeat: no-repeat;
+        background-size: contain;;
+    }
+
+
+@media screen and (min-width: 627px) and (orientation: landscape) {
+    #splash {
+        background-image: url(img/mobiltest.jpg);
+        height: 56vw;
+        width: 100vw;
+    }
+}
+
+
+
+
+
+
+
+x
+
+    #forside .logo {
+        height: 22vw;
+        width: 25vw;
+    }
+=======
 /*******************design til header**********/
 
 .header {
@@ -20,6 +64,7 @@
     height: 5vw;
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
+>>>>>>> origin/master
 
 header nav a {
     text-decoration: none;
