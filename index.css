@@ -40,7 +40,6 @@
     /*******************design til header slut**********/
     /*******************forside start**********/
 
-<<<<<<< HEAD
 #forside {
     background-image: url(img/test4.jpg);
     width: 100%;
@@ -53,12 +52,8 @@
     height: 50vw;
     width: 100vw;
 }
-=======
-    #forside {
-        background-image: url(img/test4.jpg);
-        height: 50vw;
-        width: 100vw;
-    }
+
+
 
     #forside .splash {
         height: 50vw;
@@ -275,7 +270,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-<<<<<<< HEAD
+
 #kontakt .column {
     padding: 0 10px;
     flex-grow: 1;
@@ -283,12 +278,11 @@
 
 #kontakt .content_mid {
     padding: 0 10px;
-=======
+}
 
     #kontakt .column {
         width: 20vw;
         padding: 0 10px;
->>>>>>> origin/master
     }
 
     #subject {
