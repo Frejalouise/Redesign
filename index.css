@@ -43,7 +43,7 @@ header nav {
 #forside {
     background-image: url(img/mobiltest.jpg);
     width: 100vw;
-    height: 167vw;
+    height: 130vw;
 
     background-repeat: no-repeat;
     background-size: contain;
@@ -159,7 +159,7 @@ header nav {
 }
 
 .img_hold:hover {
-    border-color: green;
+    border-color: yellowgreen;
 }
 
 #vores_hold h3 {
@@ -217,6 +217,10 @@ header nav {
     width: 40vw;
 }
 
+#sidste_nyt .video {
+    width: 50vw;
+    height: 30vw;
+}
 
 /****************** SIDSTE NYT SLUT**********/
 
@@ -301,7 +305,8 @@ input[type=submit] {
 
 #login {
     background-image: url(img/piger.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #subject {
@@ -322,7 +327,7 @@ input[type=submit] {
 
 #login .sectionwrapper {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
