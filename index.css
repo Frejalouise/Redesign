@@ -236,20 +236,16 @@
         text-align: center;
     }
 
-    #kontakt .column_top {
+    #kontakt .content_top {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        flex-basis: 400px;
+        flex-basis: 300vw;
         flex-grow: 1;
     }
 #kontakt .column {
-    flex-basis: 400px;
-        flex-grow: 1;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    height: auto;
+    width: 25vw;
+    padding: 0 15px;
     }
 
     #subject {
