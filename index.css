@@ -1,4 +1,4 @@
-    /*******************design til header**********/
+/*******************design til header**********/
 
     .header {
         padding: 1em;
@@ -58,7 +58,7 @@
         width: 100vw;
     }
 
-    >>>>>>>origin/master
+    <<<<<<< HEAD>>>>>>>origin/master=======<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master>>>>>>>origin/master
     /*******************forside slut**********/
     /*EMILIE ÆNDRER*/
 
@@ -94,249 +94,226 @@
     .img_hold:hover {
         border-color: palegreen;
     }
+}
+#vores_hold h3 {
+    text-align: center;
+    font-family: oswald;
+    color: white;
+}
+#sponsorer .sectionwrapper {
+    text-align: center;
+}
+#sidste_nyt h1 {
+    text-align: center;
+}
 
-    #vores_hold h3 {
-        text-align: center;
-        font-family: oswald;
-        color: white;
-    }
+/*EMILIE ÆNDRER*/
 
-    #sponsorer .sectionwrapper {
-        text-align: center;
-    }
+/*******************design til om **********/
+#om h1 {
+    font-family: 'Oswald', sans-serif;
+}
+#om p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#om B {
+    font-family: 'Oswald', sans-serif;
+}
+#om hr {
+    border-top: 3px solid black;
+    width: 40vw;
+}
+#om h3 {
+    font-family: 'Dancing Script', cursive;
+}
+#om sectionwrapper {
+    background-color: white;
+}
 
-    #sidste_nyt h1 {
-        text-align: center;
-    }
-    /*EMILIE ÆNDRER*/
-    /*******************design til om **********/
+/*******************design til om slut **********/
 
-    #om h1 {
-        font-family: 'Oswald', sans-serif;
-    }
+/*******************design til vores hold **********/
+#vores_hold {
+    background-color: #40648C;
+}
+#vores_hold h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+#vores_hold p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
 
-    #om p {
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
+/*******************design til vores hold slut **********/
 
-    #om B {
-        font-family: 'Oswald', sans-serif;
-    }
+/*******************sidste nyt start **********/
+#sidste_nyt h1 {
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+}
+#sidste_nyt li {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#sidste_nyt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 20px auto;
+}
+#sidste_nyt .column {
+    margin: 20px 100px;
+}
+#sidste_nyt hr {
+    border-top: 3px solid black;
+    width: 40vw;
+}
 
-    #om hr {
-        border-top: 3px solid black;
-        width: 40vw;
-    }
+/*******************sidste nyt slut **********/
 
-    #om h3 {
-        font-family: 'Dancing Script', cursive;
-    }
+/*************** sponsorer***************/
+#sponsorer h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+#sponsorer p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+}
+#sponsorer {
+    background-color: #40648C;
+    padding: 5px 0;
+}
 
-    #om sectionwrapper {
-        background-color: white;
-    }
-    /*******************design til om slut **********/
-    /*******************design til vores hold **********/
+/*************** sponsorer slut***************/
 
-    #vores_hold {
-        background-color: #40648C;
-    }
+/*************** design til login***************/
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #40648C;
+    color: white;
+    padding: 2%;
+    border: solid;
+    border-color: #E8E8E8;
+    border-radius: 45%;
+    cursor: pointer;
+}
+#login .column {
+    padding: 25px 25px 55px 25px;
+}
+#login hr {
+    border-top: 3px solid black;
+    width: 40vw;
+}
 
-    #vores_hold h1 {
-        font-family: 'Oswald', sans-serif;
-        color: white;
-    }
+/*'''''''''''''''''' kontakt os''''''''''''''''''''*/
+#kontakt {
+    background-color: #40648C;
+}
+#kontakt .content_bot {
+    text-align: center;
+}
+#kontakt img {
+    margin: 0 25px;
+    border-radius: 30px;
+}
+#kontakt h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+#kontakt .content_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#kontakt .column {
+    padding: 0 10px;
+    flex-grow: 1;
+}
+#kontakt .content_mid {
+    padding: 0 10px;
+}
+#kontakt .column {
+    width: 20vw;
+    padding: 0 10px;
+}
+#subject {
+    width: 100%;
+    height: 20vw;
+}
+#login b {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+#login h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+#login .sectionwrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+#login .column {
+    background-color: #40648C;
+    margin: 10px 10px;
+    padding: 50px;
+}
+#login h2 {
+    font-family: 'Oswald', sans-serif;
+}
+#login .login_knap {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+#login .kodeord {
+    border-radius: 3px;
+    border: 5px;
+    height: 18px;
+}
 
-    #vores_hold p {
-        font-family: 'Open Sans Condensed', sans-serif;
-        color: white;
-    }
-    /*******************design til vores hold slut **********/
-    /*******************sidste nyt start **********/
+/*************** design til login slut***************/
 
-    #sidste_nyt h1 {
-        font-family: 'Oswald', sans-serif;
-        justify-content: center;
-    }
+/********* når man holder mus over knappen send *********/
+input[type=submit]:hover {
+    background-color: #033C72;
+}
 
-    #sidste_nyt li {
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
+/********* når man holder mus over knappen send slut *********/
 
-    #sidste_nyt .sectionwrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-basis: 400px;
-        flex-grow: 1;
-        margin: 20px auto;
-    }
+/*********** bagrunden *********/
+.sectionwrapper {
+    border-radius: 5px;
+    padding: 20px;
+}
 
-    #sidste_nyt .column {
-        margin: 20px 100px;
-    }
+/*********** bagrunden slut *********/
 
-    #sidste_nyt hr {
-        border-top: 3px solid black;
-        width: 40vw;
-    }
-    /*******************sidste nyt slut **********/
-    /*************** sponsorer***************/
+/*********** footer start *********/
+footer {
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+    margin: 10px
+}
 
-    #sponsorer h1 {
-        font-family: 'Oswald', sans-serif;
-        color: white;
-    }
+/*********** footer slut *********/
 
-    #sponsorer p {
-        font-family: 'Open Sans Condensed', sans-serif;
-        color: white;
-    }
-
-    #sponsorer {
-        background-color: #40648C;
-        padding: 5px 0;
-    }
-    /*************** sponsorer slut***************/
-    /*************** design til login***************/
-
-    input[type=text],
-    select,
-    textarea {
-        width: 100%;
-        padding: 12px;
-        border: 1px solid #ccc;
-        border-radius: 7px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical
-    }
-
-    input[type=submit] {
-        background-color: #40648C;
-        color: white;
-        padding: 2%;
-        border: solid;
-        border-color: #E8E8E8;
-        border-radius: 45%;
-        cursor: pointer;
-    }
-
-    #login .column {
-        padding: 25px 25px 55px 25px;
-    }
-
-    #login hr {
-        border-top: 3px solid black;
-        width: 40vw;
-    }
-    /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
-
-    #kontakt {
-        background-color: #40648C;
-    }
-
-    #kontakt .content_bot {
-        text-align: center;
-    }
-
-    #kontakt img {
-        margin: 0 25px;
-        border-radius: 30px;
-    }
-
-    #kontakt h1 {
-        font-family: 'Oswald', sans-serif;
-        color: white;
-        text-align: center;
-    }
-
-    #kontakt .content_top {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    #kontakt .column {
-        padding: 0 10px;
-        flex-grow: 1;
-    }
-
-    #kontakt .content_mid {
-        padding: 0 10px;
-    }
-
-    #kontakt .column {
-        width: 20vw;
-        padding: 0 10px;
-    }
-
-    #subject {
-        width: 100%;
-        height: 20vw;
-    }
-
-    #login b {
-        font-family: 'Oswald', sans-serif;
-        color: white;
-    }
-
-    #login h1 {
-        color: black;
-        text-align: center;
-        font-family: 'Oswald', sans-serif;
-    }
-
-    #login .sectionwrapper {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
-
-    #login .column {
-        background-color: #40648C;
-        margin: 10px 10px;
-        padding: 50px;
-    }
-
-    #login h2 {
-        font-family: 'Oswald', sans-serif;
-    }
-
-    #login .login_knap {
-        font-family: 'Oswald', sans-serif;
-        color: black;
-    }
-
-    #login .kodeord {
-        border-radius: 3px;
-        border: 5px;
-        height: 18px;
-    }
-    /*************** design til login slut***************/
-    /********* når man holder mus over knappen send *********/
-
-    input[type=submit]:hover {
-        background-color: #033C72;
-    }
-    /********* når man holder mus over knappen send slut *********/
-    /*********** bagrunden *********/
-
-    .sectionwrapper {
-        border-radius: 5px;
-        padding: 20px;
-    }
-    /*********** bagrunden slut *********/
-    /*********** footer start *********/
-
-    footer {
-        text-align: center;
-        font-family: 'Open Sans Condensed';
-        margin: 10px
-    }
-    /*********** footer slut *********/
-    /**
+/**
 HTML!!!!
 
 <h1 class="lni">Lille Næstved Idrætsforening</h1><!-->
