@@ -277,11 +277,11 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 7px;
     box-sizing: border-box;
-    margin-top: 6px;
+    margin-top: 5px;
     margin-bottom: 16px;
     resize: vertical
 }
@@ -333,8 +333,13 @@ input[type=submit] {
 
 #login .column {
     background-color: rgba(64, 100, 140, 0.7);
-    margin: 10px 10px;
+    margin: 5px 5px;
     padding: 25px 25px 55px 25px;
+}
+#login .column1 {
+    background-color: rgba(64, 100, 140, 0.7);
+    margin: 5px 5px;
+    padding: 20px 17px 50px 10px;
 }
 
 #login h2 {
