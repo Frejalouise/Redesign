@@ -9,44 +9,16 @@
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+<<<<<<< HEAD
 header nav a:hover {
+
     color: #025aa6;
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 /*******************FORSIDE**********/
-
-#forside {
-    background-image: url(img/mobiltest.jpg);
-    width: 100vw;
-    height: 167vw;
-    /*        height: 59vw;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    ;
-}
-
-@media screen and (min-width: 680px) and (orientation: landscape) {
-    #forside {
-        background-image: url(img/test4.jpg);
-        height: 56vw;
-        width: 100vw;
-    }
-}
-#forside .logo {
-    height: 22vw;
-    width: 25vw;
-}
-
-.header {
-    padding: 1em;
-    position: absolute;
-    text-align: right;
-    width: 95vw;
-    height: 5vw;
-    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
+=======
 header nav a {
     text-decoration: none;
     color: black;
@@ -60,20 +32,264 @@ header nav {
     margin: 0 5vw 0 0;
 }
 
+
+
+/*******************design til header slut**********/
+
+/*******************forside start**********/
+>>>>>>> origin/master
+
+#forside {
+    background-image: url(img/mobiltest.jpg);
+    width: 100vw;
+    height: 167vw;
+    /*        height: 59vw;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    ;
+}
+
+<<<<<<< HEAD
+@media screen and (min-width: 680px) and (orientation: landscape) {
+    #forside {
+        background-image: url(img/test4.jpg);
+        height: 56vw;
+=======
+@media screen and (min-width: 627px) and (orientation: landscape) {
+    #splash {
+=======
+<<<<<<< HEAD <<<<<<< HEAD header nav a:hover {
+    =======header nav a:hover {
+        >>>>>>>origin/master color: #025aa6;
+        text-decoration: underline;
+    }
+    <<<<<<< HEAD
+    /*******************design til header slut**********/
+    =======>>>>>>>origin/master
+    /*******************design til header slut**********/
+    /*******************forside start**********/
+    <<<<<<< HEAD
+    /*******************design til header slut**********/
+    =======>>>>>>>origin/master
+    /*******************forside start**********/
+    #forside {
+>>>>>>> origin/master
+        background-image: url(img/mobiltest.jpg);
+>>>>>>> origin/master
+        width: 100vw;
+        height: 167vw;
+        /*        height: 59vw;*/
+        background-repeat: no-repeat;
+        background-size: contain;
+        ;
+    }
+<<<<<<< HEAD
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
+#forside .logo {
+    height: 22vw;
+    width: 25vw;
+}
+
+
+
+
+<<<<<<< HEAD
+=======
+=======
+    @media screen and (min-width: 627px) and (orientation: landscape) {
+        #splash {
+            background-image: url(img/mobiltest.jpg);
+            height: 56vw;
+            width: 100vw;
+        }
+    }
+    x #forside .logo {
+        height: 22vw;
+        width: 25vw;
+    }
+    <<<<<<< HEAD=======/*******************design til header**********/
+    =======>>>>>>>origin/master .header {
+        padding: 1em;
+        position: absolute;
+        text-align: right;
+        width: 95vw;
+        height: 5vw;
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    <<<<<<< HEAD>>>>>>>origin/master header nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 4px;
+        display: block;
+    }
+    header nav {
+        text-align: right;
+        font-family: 'Oswald', sans-serif;
+        margin: 0 5vw 0 0;
+    }
+    header nav a:hover {
+        color: #025aa6;
+    }
+    =======>>>>>>>origin/master header nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 4px;
+        display: block;
+    }
+    header nav {
+        text-align: right;
+        font-family: 'Oswald', sans-serif;
+        margin: 0 5vw 0 0;
+    }
+    header nav a:hover {
+        color: #025aa6;
+    }
+    @media screen and (min-width: 680px) {
+        header nav a {
+            display: inline-block;
+        }
+    }
+    <<<<<<< HEAD=======
+}
+
+>>>>>>> origin/master
 header nav a:hover {
     color: #025aa6;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 @media screen and (min-width: 680px) {
     header nav a {
         display: inline-block;
     }
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.lni {
+=======
+<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master .lni {
+>>>>>>> origin/master
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+<<<<<<< HEAD
+
+=======
+
+<<<<<<< HEAD=======<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master header nav a:hover {
+    color: #025aa6;
+    text-decoration: underline;
+}
+
+<<<<<<< HEAD=======
+/*******************design til header slut**********/
+
+
+/*******************forside start**********/
+
+>>>>>>> origin/master
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+<<<<<<< HEAD
+
+=======
+
+/*******************design til header slut**********/
+
+
+/*******************forside start**********/
+
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*******************design til header slut**********/
+
+
+/*******************forside start**********/
+
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/*******************design til header slut**********/
+
+
+/*******************forside start**********/
+
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master #forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+
+#forside .logo {
+    height: 22vw;
+    width: 25vw;
+}
+
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+
+>>>>>>> origin/master
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+
+
+<<<<<<< HEAD
+>>>>>>> origin/master
 
 /*******************forside slut**********/
 
+/*******************vores hold start**********/
+=======
+/*******************forside slut**********/
+
+
 /*EMILIE ÆNDRER*/
+>>>>>>> origin/master
 
 .sectionwrapper {
     margin: 75px;
@@ -108,7 +324,13 @@ header nav a:hover {
     border-color: green;
 }
 
+<<<<<<< HEAD
+
+
+=======
+
 /*******************forside slut**********/
+
 
 /*EMILIE ÆNDRER*/
 
@@ -144,6 +366,7 @@ header nav a:hover {
 .img_hold:hover {
     border-color: yellowgreen;
 }
+>>>>>>> origin/master
 
 #vores_hold h3 {
     text-align: center;
@@ -179,7 +402,9 @@ header nav a:hover {
     width: 100vw;
 }
 
+
 /*******************forside slut**********/
+
 
 /*EMILIE ÆNDRER*/
 
@@ -196,7 +421,9 @@ header nav a:hover {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
+
 
 /*******************design til om **********/
 
@@ -245,7 +472,9 @@ header nav a:hover {
     border-color: green;
 }
 
+
 /*******************forside slut**********/
+
 
 /*EMILIE ÆNDRER*/
 
@@ -282,7 +511,9 @@ header nav a:hover {
     border-color: yellowgreen;
 }
 
+
 /*******************design til om slut **********/
+
 
 /*******************design til vores hold **********/
 
@@ -305,7 +536,9 @@ header nav a:hover {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
+
 
 /*******************design til om **********/
 
@@ -334,7 +567,9 @@ header nav a:hover {
     background-color: white;
 }
 
+
 /*******************design til om slut **********/
+
 
 /*******************design til vores hold **********/
 
@@ -352,7 +587,9 @@ header nav a:hover {
     color: white;
 }
 
+
 /*******************design til vores hold slut **********/
+
 
 /*******************sidste nyt start **********/
 
@@ -383,7 +620,9 @@ header nav a:hover {
     width: 40vw;
 }
 
+
 /*******************sidste nyt slut **********/
+
 
 /*************** sponsorer***************/
 
@@ -402,7 +641,9 @@ header nav a:hover {
     padding: 5px 0;
 }
 
+
 /*************** sponsorer slut***************/
+
 
 /*************** design til login***************/
 
@@ -433,14 +674,6 @@ input[type=submit] {
     padding: 25px 25px 55px 25px;
 }
 
-#login hr {
-    border-top: 3px solid black;
-    width: 40vw;
-    border-bottom: black;
-    border-left: black;
-    border-right: black;
-}
-
 #login {
     background-image: url(img/piger.png);
     background-size: 100%;
@@ -454,6 +687,7 @@ input[type=submit] {
 #kontakt .content_mid {
     padding: 0 10px;
 }
+
 
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
@@ -539,7 +773,9 @@ input[type=submit] {
     height: 18px;
 }
 
+
 /*************** design til login slut***************/
+
 
 /********* når man holder mus over knappen send *********/
 
@@ -547,7 +783,9 @@ input[type=submit]:hover {
     background-color: #033C72;
 }
 
+
 /********* når man holder mus over knappen send slut *********/
+
 
 /*********** bagrunden *********/
 
@@ -556,7 +794,9 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+
 /*********** bagrunden slut *********/
+
 
 /*********** footer start *********/
 
@@ -565,6 +805,7 @@ footer {
     font-family: 'Open Sans Condensed';
     margin: 10px
 }
+
 
 /*********** footer slut *********/
 
@@ -582,7 +823,9 @@ footer {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
+
 
 /*******************design til om **********/
 
@@ -611,7 +854,9 @@ footer {
     background-color: white;
 }
 
+
 /*******************design til om slut **********/
+
 
 /*******************design til vores hold **********/
 
@@ -634,7 +879,9 @@ footer {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
+
 
 /*******************design til om **********/
 
@@ -668,7 +915,9 @@ footer {
     background-color: white;
 }
 
+
 /*******************design til om slut **********/
+
 
 /*******************design til vores hold **********/
 
@@ -686,7 +935,9 @@ footer {
     color: white;
 }
 
+
 /*******************design til vores hold slut **********/
+
 
 /*******************sidste nyt start **********/
 
@@ -717,7 +968,9 @@ footer {
     width: 40vw;
 }
 
+
 /*******************sidste nyt slut **********/
+
 
 /*************** sponsorer***************/
 
@@ -736,7 +989,9 @@ footer {
     padding: 5px 0;
 }
 
+
 /*************** sponsorer slut***************/
+
 
 /*************** design til login***************/
 
@@ -781,6 +1036,7 @@ input[type=submit] {
 #kontakt .content_mid {
     padding: 0 10px;
 }
+
 
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
@@ -867,7 +1123,9 @@ input[type=submit] {
     height: 18px;
 }
 
+
 /*************** design til login slut***************/
+
 
 /********* når man holder mus over knappen send *********/
 
@@ -875,7 +1133,9 @@ input[type=submit]:hover {
     background-color: #033C72;
 }
 
+
 /********* når man holder mus over knappen send slut *********/
+
 
 /*********** bagrunden *********/
 
@@ -884,7 +1144,9 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+
 /*********** bagrunden slut *********/
+
 
 /*********** footer start *********/
 
@@ -894,7 +1156,9 @@ footer {
     margin: 10px
 }
 
+
 /*********** footer slut *********/
+
 
 /**
 HTML!!!!
