@@ -77,20 +77,8 @@
         margin: 0 35px
     }
 
-    .img_hold1 {
-        height: 15vw;
-        width: 15vw;
-        border: 6px black solid;
-        border-radius: 150px;
-        margin: 0 35px
-    }
-
     .img_hold:hover {
-        border-color: yellowgreen;
-    }
-
-    .img_hold1:hover {
-        border-color: orangered;
+        border-color: lightgoldenrodyellow;
     }
 
     #vores_hold h3 {
