@@ -9,20 +9,31 @@
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD header nav a:hover {
+=======
+header nav a:hover {
+>>>>>>> origin/master
     color: #025aa6;
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 
 /*******************design til header slut**********/
+=======
+>>>>>>> origin/master
 
+/*******************design til header slut**********/
 
 /*******************forside start**********/
 
 
+<<<<<<< HEAD
 /*******************design til header slut**********/
 
+=======
+>>>>>>> origin/master
 
 /*******************forside start**********/
 
@@ -48,9 +59,12 @@ x #forside .logo {
     height: 22vw;
     width: 25vw;
 }
+<<<<<<< HEAD
 
 =======
 /*******************design til header**********/
+=======
+>>>>>>> origin/master
 
 .header {
     padding: 1em;
@@ -60,6 +74,7 @@ x #forside .logo {
     height: 5vw;
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
+<<<<<<< HEAD
 
 >>>>>>>origin/master header nav a {
     text-decoration: none;
@@ -77,6 +92,8 @@ header nav {
 header nav a:hover {
     color: #025aa6;
 }
+=======
+>>>>>>> origin/master
 
 header nav a {
     text-decoration: none;
@@ -102,6 +119,8 @@ header nav a:hover {
 }
 
 
+<<<<<<< HEAD
+=======
 }
 header nav a:hover {
     color: #025aa6;
@@ -111,16 +130,31 @@ header nav a:hover {
         display: inline-block;
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 .lni {
     font-family: 'Oswald', sans-serif;
     text-align: left;
     font-size: 20px;
 }
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
 header nav a:hover {
     color: #025aa6;
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
+=======
 /*******************design til header slut**********/
 
 /*******************forside start**********/
@@ -164,6 +198,11 @@ header nav a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 #forside .splash {
     height: 50vw;
     width: 100vw;
