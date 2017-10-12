@@ -9,103 +9,83 @@
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD header nav a:hover {
-=======
-header nav a:hover {
->>>>>>> origin/master
-    color: #025aa6;
-    text-decoration: underline;
-}
-
-<<<<<<< HEAD
-
-/*******************design til header slut**********/
-=======
->>>>>>> origin/master
-
-/*******************design til header slut**********/
-
-/*******************forside start**********/
-
-
-<<<<<<< HEAD
-/*******************design til header slut**********/
-
-=======
->>>>>>> origin/master
-
-/*******************forside start**********/
-
-#forside {
-    background-image: url(img/mobiltest.jpg);
-    width: 100vw;
-    height: 167vw;
-    /*        height: 59vw;*/
-    background-repeat: no-repeat;
-    background-size: contain;
-    ;
-}
-
-@media screen and (min-width: 627px) and (orientation: landscape) {
-    #splash {
+<<<<<<< HEAD <<<<<<< HEAD header nav a:hover {
+    =======header nav a:hover {
+        >>>>>>>origin/master color: #025aa6;
+        text-decoration: underline;
+    }
+    <<<<<<< HEAD
+    /*******************design til header slut**********/
+    =======>>>>>>>origin/master
+    /*******************design til header slut**********/
+    /*******************forside start**********/
+    <<<<<<< HEAD
+    /*******************design til header slut**********/
+    =======>>>>>>>origin/master
+    /*******************forside start**********/
+    #forside {
         background-image: url(img/mobiltest.jpg);
-        height: 56vw;
         width: 100vw;
+        height: 167vw;
+        /*        height: 59vw;*/
+        background-repeat: no-repeat;
+        background-size: contain;
+        ;
     }
-}
-
-x #forside .logo {
-    height: 22vw;
-    width: 25vw;
-}
-<<<<<<< HEAD
-
-=======
-/*******************design til header**********/
-=======
->>>>>>> origin/master
-
-.header {
-    padding: 1em;
-    position: absolute;
-    text-align: right;
-    width: 95vw;
-    height: 5vw;
-    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
-}
-<<<<<<< HEAD
-
->>>>>>>origin/master header nav a {
-    text-decoration: none;
-    color: black;
-    padding-right: 4px;
-    display: block;
-}
-
-header nav {
-    text-align: right;
-    font-family: 'Oswald', sans-serif;
-    margin: 0 5vw 0 0;
-}
-
-header nav a:hover {
-    color: #025aa6;
-}
-=======
->>>>>>> origin/master
-
-header nav a {
-    text-decoration: none;
-    color: black;
-    padding-right: 4px;
-    display: block;
-}
-
-header nav {
-    text-align: right;
-    font-family: 'Oswald', sans-serif;
-    margin: 0 5vw 0 0;
+    @media screen and (min-width: 627px) and (orientation: landscape) {
+        #splash {
+            background-image: url(img/mobiltest.jpg);
+            height: 56vw;
+            width: 100vw;
+        }
+    }
+    x #forside .logo {
+        height: 22vw;
+        width: 25vw;
+    }
+    <<<<<<< HEAD=======/*******************design til header**********/
+    =======>>>>>>>origin/master .header {
+        padding: 1em;
+        position: absolute;
+        text-align: right;
+        width: 95vw;
+        height: 5vw;
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    <<<<<<< HEAD>>>>>>>origin/master header nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 4px;
+        display: block;
+    }
+    header nav {
+        text-align: right;
+        font-family: 'Oswald', sans-serif;
+        margin: 0 5vw 0 0;
+    }
+    header nav a:hover {
+        color: #025aa6;
+    }
+    =======>>>>>>>origin/master header nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 4px;
+        display: block;
+    }
+    header nav {
+        text-align: right;
+        font-family: 'Oswald', sans-serif;
+        margin: 0 5vw 0 0;
+    }
+    header nav a:hover {
+        color: #025aa6;
+    }
+    @media screen and (min-width: 680px) {
+        header nav a {
+            display: inline-block;
+        }
+    }
+    <<<<<<< HEAD=======
 }
 
 header nav a:hover {
@@ -118,46 +98,23 @@ header nav a:hover {
     }
 }
 
-
-<<<<<<< HEAD
-=======
-}
-header nav a:hover {
-    color: #025aa6;
-}
-@media screen and (min-width: 680px) {
-    header nav a {
-        display: inline-block;
-    }
-}
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
->>>>>>> origin/master
-.lni {
+<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master .lni {
     font-family: 'Oswald', sans-serif;
     text-align: left;
     font-size: 20px;
 }
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
->>>>>>> origin/master
-header nav a:hover {
+<<<<<<< HEAD=======<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master header nav a:hover {
     color: #025aa6;
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
+<<<<<<< HEAD=======
 /*******************design til header slut**********/
 
+
 /*******************forside start**********/
+
 #forside {
     background-image: url(img/test4.jpg);
     width: 100%;
@@ -166,9 +123,12 @@ header nav a:hover {
     background-size: contain;
 }
 
+
 /*******************design til header slut**********/
 
+
 /*******************forside start**********/
+
 #forside {
     background-image: url(img/test4.jpg);
     width: 100%;
@@ -177,9 +137,12 @@ header nav a:hover {
     background-size: contain;
 }
 
+
 /*******************design til header slut**********/
 
+
 /*******************forside start**********/
+
 #forside {
     background-image: url(img/test4.jpg);
     width: 100%;
@@ -188,9 +151,12 @@ header nav a:hover {
     background-size: contain;
 }
 
+
 /*******************design til header slut**********/
 
+
 /*******************forside start**********/
+
 #forside {
     background-image: url(img/test4.jpg);
     width: 100%;
@@ -198,45 +164,51 @@ header nav a:hover {
     background-repeat: no-repeat;
     background-size: contain;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
->>>>>>> origin/master
-#forside .splash {
+<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 #forside .logo {
     height: 22vw;
     width: 25vw;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 
 /*******************forside slut**********/
 
+
 /*EMILIE ÆNDRER*/
+
 .sectionwrapper {
     margin: 75px;
 }
+
 #om .sectionwrapper {
     text-align: center;
     border: 1px black solid;
 }
+
 #vores_hold .sectionwrapper {
     text-align: center;
 }
+
 #vores_hold .content_bot {
     display: flex;
     flex-wrap: wrap;
@@ -244,6 +216,7 @@ header nav a:hover {
     flex-basis: 400px;
     flex-grow: 1;
 }
+
 .img_hold {
     height: 15vw;
     width: 15vw;
@@ -251,23 +224,30 @@ header nav a:hover {
     border-radius: 150px;
     margin: 0 35px
 }
+
 .img_hold:hover {
     border-color: green;
 }
 
+
 /*******************forside slut**********/
 
+
 /*EMILIE ÆNDRER*/
+
 .sectionwrapper {
     margin: 75px;
 }
+
 #om .sectionwrapper {
     text-align: center;
     border: 1px black solid;
 }
+
 #vores_hold .sectionwrapper {
     text-align: center;
 }
+
 #vores_hold .content_bot {
     display: flex;
     flex-wrap: wrap;
@@ -275,6 +255,7 @@ header nav a:hover {
     flex-basis: 400px;
     flex-grow: 1;
 }
+
 .img_hold {
     height: 15vw;
     width: 15vw;
@@ -282,73 +263,95 @@ header nav a:hover {
     border-radius: 150px;
     margin: 0 35px
 }
+
 .img_hold:hover {
     border-color: yellowgreen;
 }
+
 #vores_hold h3 {
     text-align: center;
     font-family: oswald;
     color: white;
 }
+
 #sponsorer .sectionwrapper {
     text-align: center;
 }
+
 #sidste_nyt h1 {
     text-align: center;
 }
+
 #forside .logo {
     height: 22vw;
     width: 25vw;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 
 /*******************forside slut**********/
 
+
 /*EMILIE ÆNDRER*/
+
 .sectionwrapper {
     margin: 75px;
 }
+
 #om .sectionwrapper {
     text-align: center;
     border: 1px black solid;
 }
+
 #vores_hold .sectionwrapper {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
 
+
 /*******************design til om **********/
+
 #om h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 #om p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #om B {
     font-family: 'Oswald', sans-serif;
 }
+
 #om hr {
     border-top: 3px solid black;
     width: 40vw;
 }
+
 #om h3 {
     font-family: 'Dancing Script', cursive;
 }
+
 #om sectionwrapper {
     background-color: white;
 }
+
 #vores_hold .content_bot {
     display: flex;
     flex-wrap: wrap;
@@ -356,6 +359,7 @@ header nav a:hover {
     flex-basis: 400px;
     flex-grow: 1;
 }
+
 .img_hold {
     height: 15vw;
     width: 15vw;
@@ -363,23 +367,30 @@ header nav a:hover {
     border-radius: 150px;
     margin: 0 35px
 }
+
 .img_hold:hover {
     border-color: green;
 }
 
+
 /*******************forside slut**********/
 
+
 /*EMILIE ÆNDRER*/
+
 .sectionwrapper {
     margin: 75px;
 }
+
 #om .sectionwrapper {
     text-align: center;
     border: 1px black solid;
 }
+
 #vores_hold .sectionwrapper {
     text-align: center;
 }
+
 #vores_hold .content_bot {
     display: flex;
     flex-wrap: wrap;
@@ -387,6 +398,7 @@ header nav a:hover {
     flex-basis: 400px;
     flex-grow: 1;
 }
+
 .img_hold {
     height: 15vw;
     width: 15vw;
@@ -394,77 +406,102 @@ header nav a:hover {
     border-radius: 150px;
     margin: 0 35px
 }
+
 .img_hold:hover {
     border-color: yellowgreen;
 }
 
+
 /*******************design til om slut **********/
 
+
 /*******************design til vores hold **********/
+
 #vores_hold {
     background-color: #40648C;
     border-color: palegreen;
 }
+
 #vores_hold h3 {
     text-align: center;
     font-family: oswald;
     color: white;
 }
+
 #sponsorer .sectionwrapper {
     text-align: center;
 }
+
 #sidste_nyt h1 {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
 
+
 /*******************design til om **********/
+
 #om h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 #om p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #om B {
     font-family: 'Oswald', sans-serif;
 }
+
 #om hr {
     border-top: 3px solid black;
     width: 40vw;
 }
+
 #om h3 {
     font-family: 'Dancing Script', cursive;
 }
+
 #om sectionwrapper {
     background-color: white;
 }
 
+
 /*******************design til om slut **********/
 
+
 /*******************design til vores hold **********/
+
 #vores_hold {
     background-color: #40648C;
 }
+
 #vores_hold h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+
 #vores_hold p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
 }
 
+
 /*******************design til vores hold slut **********/
 
+
 /*******************sidste nyt start **********/
+
 #sidste_nyt h1 {
     font-family: 'Oswald', sans-serif;
     justify-content: center;
 }
+
 #sidste_nyt li {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #sidste_nyt .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -473,33 +510,43 @@ header nav a:hover {
     flex-grow: 1;
     margin: 20px auto;
 }
+
 #sidste_nyt .column {
     margin: 20px 100px;
 }
+
 #sidste_nyt hr {
     border-top: 3px solid black;
     width: 40vw;
 }
 
+
 /*******************sidste nyt slut **********/
 
+
 /*************** sponsorer***************/
+
 #sponsorer h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+
 #sponsorer p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
 }
+
 #sponsorer {
     background-color: #40648C;
     padding: 5px 0;
 }
 
+
 /*************** sponsorer slut***************/
 
+
 /*************** design til login***************/
+
 input[type=text],
 select,
 textarea {
@@ -512,6 +559,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical
 }
+
 input[type=submit] {
     background-color: #40648C;
     color: white;
@@ -521,220 +569,287 @@ input[type=submit] {
     border-radius: 45%;
     cursor: pointer;
 }
+
 #login .column {
     padding: 25px 25px 55px 25px;
 }
+
 #login {
     background-image: url(img/piger.png);
     background-size: 100%;
 }
+
 #kontakt .column {
     padding: 0 10px;
     flex-grow: 1;
 }
+
 #kontakt .content_mid {
     padding: 0 10px;
 }
 
+
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
+
 #kontakt {
     background-color: #40648C;
 }
+
 #kontakt .content_bot {
     text-align: center;
 }
+
 #kontakt img {
     margin: 0 25px;
     border-radius: 30px;
 }
+
 #kontakt h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
     text-align: center;
 }
+
 #kontakt .content_top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 #kontakt .column {
     padding: 0 10px;
     flex-grow: 1;
 }
+
 #kontakt .content_mid {
     padding: 0 10px;
 }
+
 #kontakt .column {
     width: 20vw;
     padding: 0 10px;
 }
+
 #subject {
     width: 100%;
     height: 20vw;
 }
+
 #login b {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+
 #login h1 {
     color: black;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+
 #login .sectionwrapper {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
+
 #login .column {
     background-color: rgba(64, 100, 140, 0.7);
     margin: 10px 10px;
     padding: 50px;
 }
+
 #login h2 {
     font-family: 'Oswald', sans-serif;
 }
+
 #login .login_knap {
     font-family: 'Oswald', sans-serif;
     color: black;
 }
+
 #login .kodeord {
     border-radius: 3px;
     border: 5px;
     height: 18px;
 }
 
+
 /*************** design til login slut***************/
 
+
 /********* når man holder mus over knappen send *********/
+
 input[type=submit]:hover {
     background-color: #033C72;
 }
 
+
 /********* når man holder mus over knappen send slut *********/
 
+
 /*********** bagrunden *********/
+
 .sectionwrapper {
     border-radius: 5px;
     padding: 20px;
 }
 
+
 /*********** bagrunden slut *********/
 
+
 /*********** footer start *********/
+
 footer {
     text-align: center;
     font-family: 'Open Sans Condensed';
     margin: 10px
 }
 
+
 /*********** footer slut *********/
+
 #vores_hold h3 {
     text-align: center;
     font-family: oswald;
     color: white;
 }
+
 #sponsorer .sectionwrapper {
     text-align: center;
 }
+
 #sidste_nyt h1 {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
 
+
 /*******************design til om **********/
+
 #om h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 #om p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #om B {
     font-family: 'Oswald', sans-serif;
 }
+
 #om hr {
     border-top: 3px solid black;
     width: 40vw;
 }
+
 #om h3 {
     font-family: 'Dancing Script', cursive;
 }
+
 #om sectionwrapper {
     background-color: white;
 }
 
+
 /*******************design til om slut **********/
 
+
 /*******************design til vores hold **********/
+
 #vores_hold {
     background-color: #40648C;
     border-color: palegreen;
 }
+
 #vores_hold h3 {
     text-align: center;
     font-family: oswald;
     color: white;
 }
+
 #sponsorer .sectionwrapper {
     text-align: center;
 }
+
 #sidste_nyt h1 {
     text-align: center;
 }
 
+
 /*EMILIE ÆNDRER*/
 
+
 /*******************design til om **********/
+
 #om h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 #om p {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #om B {
     font-family: 'Oswald', sans-serif;
 }
+
 #om hr {
     border-top: 3px solid black;
     width: 40vw;
 }
+
 #om h3 {
     font-family: 'Dancing Script', cursive;
 }
+
 #forside .splash {
     height: 50vw;
     width: 100vw;
 }
+
 #om sectionwrapper {
     background-color: white;
 }
 
+
 /*******************design til om slut **********/
 
+
 /*******************design til vores hold **********/
+
 #vores_hold {
     background-color: #40648C;
 }
+
 #vores_hold h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+
 #vores_hold p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
 }
 
+
 /*******************design til vores hold slut **********/
 
+
 /*******************sidste nyt start **********/
+
 #sidste_nyt h1 {
     font-family: 'Oswald', sans-serif;
     justify-content: center;
 }
+
 #sidste_nyt li {
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
 #sidste_nyt .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -743,33 +858,43 @@ footer {
     flex-grow: 1;
     margin: 20px auto;
 }
+
 #sidste_nyt .column {
     margin: 20px 100px;
 }
+
 #sidste_nyt hr {
     border-top: 3px solid black;
     width: 40vw;
 }
 
+
 /*******************sidste nyt slut **********/
 
+
 /*************** sponsorer***************/
+
 #sponsorer h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+
 #sponsorer p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
 }
+
 #sponsorer {
     background-color: #40648C;
     padding: 5px 0;
 }
 
+
 /*************** sponsorer slut***************/
 
+
 /*************** design til login***************/
+
 input[type=text],
 select,
 textarea {
@@ -782,6 +907,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical
 }
+
 input[type=submit] {
     background-color: #40648C;
     color: white;
@@ -792,115 +918,147 @@ input[type=submit] {
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
 }
+
 #login .column {
     padding: 25px 25px 55px 25px;
 }
+
 #login hr {
     border-top: 3px solid white;
     width: 40vw;
 }
+
 #kontakt .column {
     padding: 0 10px;
     flex-grow: 1;
 }
+
 #kontakt .content_mid {
     padding: 0 10px;
 }
 
+
 /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
+
 #kontakt {
     background-color: #40648C;
 }
+
 #kontakt .content_bot {
     text-align: center;
 }
+
 #kontakt img {
     margin: 0 25px;
     border-radius: 30px;
 }
+
 #kontakt h1 {
     font-family: 'Oswald', sans-serif;
     color: white;
     text-align: center;
 }
+
 #kontakt .content_top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 #kontakt .column {
     padding: 0 10px;
     flex-grow: 1;
 }
+
 #kontakt .content_mid {
     padding: 0 10px;
 }
+
 #kontakt .column {
     width: 20vw;
     padding: 0 10px;
 }
+
 #subject {
     width: 100%;
     height: 20vw;
 }
+
 #login b {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+
 #login h1 {
     color: white;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+
 #login .sectionwrapper {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
 }
+
 #login .column {
     background-color: rgba(64, 100, 140, 0.7);
     margin: 10px 10px;
     padding: 50px;
 }
+
 #login h2 {
     font-family: 'Oswald', sans-serif;
     color: aliceblue;
 }
+
 #login .login_knap {
     font-family: 'Oswald', sans-serif;
     color: black;
 }
+
 #login .kodeord {
     border-radius: 3px;
     border: 5px;
     height: 18px;
 }
 
+
 /*************** design til login slut***************/
 
+
 /********* når man holder mus over knappen send *********/
+
 input[type=submit]:hover {
     background-color: #033C72;
 }
 
+
 /********* når man holder mus over knappen send slut *********/
 
+
 /*********** bagrunden *********/
+
 .sectionwrapper {
     border-radius: 5px;
     padding: 20px;
 }
 
+
 /*********** bagrunden slut *********/
 
+
 /*********** footer start *********/
+
 footer {
     text-align: center;
     font-family: 'Open Sans Condensed';
     margin: 10px
 }
 
+
 /*********** footer slut *********/
+
 
 /**
 HTML!!!!
