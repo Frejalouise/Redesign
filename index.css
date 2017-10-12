@@ -62,7 +62,7 @@
         flex-wrap: wrap;
         justify-content: center;
         flex-basis: 400px;
-        flex-grow: 1px;
+        flex-grow: 1;
     }
 
     .img_hold {
@@ -149,7 +149,7 @@
         flex-wrap: wrap;
         justify-content: center;
         flex-basis: 400px;
-        flex-grow: 1px;
+        flex-grow: 1;
     margin: 20px auto;
 }
 
@@ -241,11 +241,11 @@
         flex-wrap: wrap;
         justify-content: center;
         flex-basis: 400px;
-        flex-grow: 1px;
+        flex-grow: 1;
     }
 #kontakt .column {
     flex-basis: 400px;
-        flex-grow: 1px;
+        flex-grow: 1;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
