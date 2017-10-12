@@ -1,99 +1,107 @@
 /*******************design til header**********/
 
-    .header {
-        padding: 1em;
-        position: absolute;
-        text-align: right;
-        width: 95vw;
-        height: 5vw;
-        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
-    }
+.header {
+    padding: 1em;
+    position: absolute;
+    text-align: right;
+    width: 95vw;
+    height: 5vw;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
+}
 
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 4px;
+    display: block;
+}
+
+header nav {
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 5vw 0 0;
+}
+
+header nav a:hover {
+    color: #025aa6;
+}
+
+@media screen and (min-width: 680px) {
     header nav a {
-        text-decoration: none;
-        color: black;
-        padding-right: 4px;
-        display: block;
+        display: inline-block;
     }
+}
 
-    header nav {
-        text-align: right;
-        font-family: 'Oswald', sans-serif;
-        margin: 0 5vw 0 0;
-    }
+.lni {
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
 
-    header nav a:hover {
-        color: #025aa6;
-    }
 
-    @media screen and (min-width: 680px) {
-        header nav a {
-            display: inline-block;
-        }
-    }
+/*******************design til header slut**********/
 
-    .lni {
-        font-family: 'Oswald', sans-serif;
-        text-align: left;
-        font-size: 20px;
-    }
-    /*******************design til header slut**********/
-    /*******************forside start**********/
 
-    #forside {
-        background-image: url(img/test4.jpg);
-        width: 100%;
-        height: 59vw;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+/*******************forside start**********/
 
-    #forside .splash {
-        height: 50vw;
-        width: 100vw;
-    }
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
-    #forside .splash {
-        height: 50vw;
-        width: 100vw;
-    }
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
 
-    <<<<<<< HEAD>>>>>>>origin/master=======<<<<<<< HEAD=======>>>>>>>origin/master>>>>>>>origin/master>>>>>>>origin/master
-    /*******************forside slut**********/
-    /*EMILIE ÆNDRER*/
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
 
-    .sectionwrapper {
-        margin: 75px;
-    }
 
-    #om .sectionwrapper {
-        text-align: center;
-        border: 1px black solid;
-    }
+/*******************forside slut**********/
 
-    #vores_hold .sectionwrapper {
-        text-align: center;
-    }
 
-    #vores_hold .content_bot {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-basis: 400px;
-        flex-grow: 1;
-    }
+/*EMILIE ÆNDRER*/
 
-    .img_hold {
-        height: 15vw;
-        width: 15vw;
-        border: 6px black solid;
-        border-radius: 150px;
-        margin: 0 35px
-    }
+.sectionwrapper {
+    margin: 75px;
+}
 
-    .img_hold:hover {
-        border-color: palegreen;
-    }
+#om .sectionwrapper {
+    text-align: center;
+    border: 1px black solid;
+}
+
+#vores_hold .sectionwrapper {
+    text-align: center;
+}
+
+#vores_hold .content_bot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.img_hold {
+    height: 15vw;
+    width: 15vw;
+    border: 6px black solid;
+    border-radius: 150px;
+    margin: 0 35px
+}
+
+.img_hold:hover {
+    border-color: green;
+}
+
+
 }
 #vores_hold h3 {
     text-align: center;
