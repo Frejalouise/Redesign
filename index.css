@@ -243,6 +243,7 @@
         text-align: center;
     }
 
+<<<<<<< HEAD
     #sidste_nyt h1 {
         text-align: center;
     }
@@ -269,6 +270,12 @@
     #om h3 {
         font-family: 'Dancing Script', cursive;
     }
+=======
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+>>>>>>> origin/master
 
     #om sectionwrapper {
         background-color: white;
