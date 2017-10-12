@@ -5,7 +5,7 @@
         position: absolute;
         text-align: right;
         width: 95vw;
-        height: 5vw;
+        height: 7.5vw;
         background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(0,0,0,0) 100%);
     }
 
@@ -24,6 +24,7 @@
 
     header nav a:hover {
         color: #025aa6;
+        text-decoration: underline;
     }
 
     @media screen and (min-width: 680px) {
@@ -53,6 +54,10 @@
     width: 100vw;
 }
 
+#forside .logo {
+    height: 22vw;
+    width: 25vw;
+}
 
 
     #forside .splash {
