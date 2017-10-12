@@ -9,7 +9,7 @@
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-header nav a {
+<<<<<<< HEAD header nav a {
     text-decoration: none;
     color: black;
     padding-right: 4px;
@@ -26,7 +26,24 @@ header nav a:hover {
     color: #025aa6;
 }
 
-@media screen and (min-width: 680px) {
+=======header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 4px;
+    display: block;
+}
+
+header nav {
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 5vw 0 0;
+}
+
+header nav a:hover {
+    color: #025aa6;
+}
+
+>>>>>>>origin/master @media screen and (min-width: 680px) {
     header nav a {
         display: inline-block;
     }
@@ -36,6 +53,20 @@ header nav a:hover {
     font-family: 'Oswald', sans-serif;
     text-align: left;
     font-size: 20px;
+}
+
+<<<<<<< HEAD
+/*******************design til header slut**********/
+
+
+/*******************forside start**********/
+
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -50,6 +81,16 @@ header nav a:hover {
     height: 59vw;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
 }
 
 #forside .splash {
@@ -99,6 +140,103 @@ header nav a:hover {
 
 .img_hold:hover {
     border-color: green;
+}
+
+=======
+/*******************forside slut**********/
+
+
+/*EMILIE ÆNDRER*/
+
+.sectionwrapper {
+    margin: 75px;
+}
+
+#om .sectionwrapper {
+    text-align: center;
+    border: 1px black solid;
+}
+
+#vores_hold .sectionwrapper {
+    text-align: center;
+}
+
+#vores_hold .content_bot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.img_hold {
+    height: 15vw;
+    width: 15vw;
+    border: 6px black solid;
+    border-radius: 150px;
+    margin: 0 35px
+}
+
+.img_hold:hover {
+    border-color: yellowgreen;
+}
+
+#vores_hold h3 {
+    text-align: center;
+    font-family: oswald;
+    color: white;
+}
+
+#sponsorer .sectionwrapper {
+    text-align: center;
+}
+
+#sidste_nyt h1 {
+    text-align: center;
+}
+
+
+/*EMILIE ÆNDRER*/
+
+
+/*******************design til om **********/
+
+#om h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#om p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#om B {
+    font-family: 'Oswald', sans-serif;
+}
+
+#om hr {
+    border-top: 3px solid black;
+    width: 40vw;
+}
+
+#om h3 {
+    font-family: 'Dancing Script', cursive;
+}
+
+#om sectionwrapper {
+    background-color: white;
+    >>>>>>>origin/master
+}
+
+
+/*******************design til om slut **********/
+
+
+/*******************design til vores hold **********/
+
+#vores_hold {
+    background-color: #40648C;
+    =======border-color: palegreen;
+    >>>>>>>origin/master
 }
 
 
@@ -226,8 +364,14 @@ input[type=submit] {
     border-top: 3px solid black;
     width: 40vw;
 }
-
-/*'''''''''''''''''' kontakt os''''''''''''''''''''*/
+<<<<<<< HEAD #kontakt .column {
+    padding: 0 10px;
+    flex-grow: 1;
+}
+#kontakt .content_mid {
+    padding: 0 10px;
+}
+=======/*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 #kontakt {
     background-color: #40648C;
 }
@@ -294,7 +438,7 @@ input[type=submit] {
     border: 5px;
     height: 18px;
 }
-
+>>>>>>>origin/master
 /*************** design til login slut***************/
 
 /********* når man holder mus over knappen send *********/
