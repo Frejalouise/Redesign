@@ -35,16 +35,16 @@
     /*******************design til header slut**********/
     /*******************forside start**********/
 
-#forside {
-    background-image: url(img/test4.jpg);
-    height: 50vw;
-    width: 100vw;
-}
+    #forside {
+        background-image: url(img/test4.jpg);
+        height: 50vw;
+        width: 100vw;
+    }
 
-#forside .splash {
-    height: 50vw;
-    width: 100vw;
-}
+    #forside .splash {
+        height: 50vw;
+        width: 100vw;
+    }
     /*******************forside slut**********/
     /*EMILIE ÆNDRER*/
 
@@ -72,9 +72,25 @@
     .img_hold {
         height: 15vw;
         width: 15vw;
-        border: 8px black solid;
+        border: 6px black solid;
         border-radius: 150px;
         margin: 0 35px
+    }
+
+    .img_hold1 {
+        height: 15vw;
+        width: 15vw;
+        border: 6px black solid;
+        border-radius: 150px;
+        margin: 0 35px
+    }
+
+    .img_hold:hover {
+        border-color: yellowgreen;
+    }
+
+    .img_hold1:hover {
+        border-color: orangered;
     }
 
     #vores_hold h3 {
@@ -122,10 +138,7 @@
 
     #vores_hold {
         background-color: #40648C;
-
     }
-
-
 
     #vores_hold h1 {
         font-family: 'Oswald', sans-serif;
@@ -148,26 +161,23 @@
         font-family: 'Open Sans Condensed', sans-serif;
     }
 
-#sidste_nyt .sectionwrapper {
-    display: flex;
+    #sidste_nyt .sectionwrapper {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex-basis: 400px;
         flex-grow: 1;
-    margin: 20px auto;
-}
+        margin: 20px auto;
+    }
 
-#sidste_nyt .column {
-    margin: 20px 100px;
+    #sidste_nyt .column {
+        margin: 20px 100px;
+    }
 
-}
-
-#sidste_nyt hr {
-    border-top: 3px solid black;
-    width: 1000px;
-}
-
-
+    #sidste_nyt hr {
+        border-top: 3px solid black;
+        width: 1000px;
+    }
     /*******************sidste nyt slut **********/
     /*************** sponsorer***************/
 
@@ -247,9 +257,10 @@
         flex-basis: 300vw;
         flex-grow: 1;
     }
-#kontakt .column {
-    width: 20vw;
-    padding: 0 10px;
+
+    #kontakt .column {
+        width: 20vw;
+        padding: 0 10px;
     }
 
     #subject {
@@ -262,8 +273,6 @@
         color: white;
     }
 
-
-
     #login h1 {
         color: black;
         text-align: center;
@@ -275,10 +284,11 @@
         flex-wrap: nowrap;
         justify-content: center;
     }
-#login .column {
+
+    #login .column {
         background-color: #40648C;
         margin: 10px 10px;
-    padding: 50px;
+        padding: 50px;
     }
 
     #login h2 {
@@ -317,10 +327,7 @@
         margin: 10px
     }
     /*********** footer slut *********/
-
-
-
-/**
+    /**
 HTML!!!!
 
 <h1 class="lni">Lille Næstved Idrætsforening</h1><!-->
