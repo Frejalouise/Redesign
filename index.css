@@ -32,7 +32,9 @@
         text-align: left;
         font-size: 20px;
     }
+
     /*******************design til header slut**********/
+
     /*******************forside start**********/
 
     #forside {
@@ -45,7 +47,9 @@
         height: 50vw;
         width: 100vw;
     }
+
     /*******************forside slut**********/
+
     /*EMILIE ÆNDRER*/
 
     .sectionwrapper {
@@ -90,7 +94,7 @@
     }
 
     .img_hold1:hover {
-        border-color: orangered;
+        border-color: o;
     }
 
     #vores_hold h3 {
@@ -106,7 +110,9 @@
     #sidste_nyt h1 {
         text-align: center;
     }
+
     /*EMILIE ÆNDRER*/
+
     /*******************design til om **********/
 
     #om h1 {
@@ -133,7 +139,9 @@
     #om sectionwrapper {
         background-color: white;
     }
+
     /*******************design til om slut **********/
+
     /*******************design til vores hold **********/
 
     #vores_hold {
@@ -149,7 +157,9 @@
         font-family: 'Open Sans Condensed', sans-serif;
         color: white;
     }
+
     /*******************design til vores hold slut **********/
+
     /*******************sidste nyt start **********/
 
     #sidste_nyt h1 {
@@ -178,7 +188,9 @@
         border-top: 3px solid black;
         width: 40vw;
     }
+
     /*******************sidste nyt slut **********/
+
     /*************** sponsorer***************/
 
     #sponsorer h1 {
@@ -195,7 +207,9 @@
         background-color: #40648C;
         padding: 5px 0;
     }
+
     /*************** sponsorer slut***************/
+
     /*************** design til login***************/
 
     input[type=text],
@@ -229,6 +243,7 @@
         border-top: 3px solid black;
         width: 40vw;
     }
+
     /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
     #kontakt {
@@ -305,20 +320,26 @@
         border: 5px;
         height: 18px;
     }
+
     /*************** design til login slut***************/
+
     /********* når man holder mus over knappen send *********/
 
     input[type=submit]:hover {
         background-color: #033C72;
     }
+
     /********* når man holder mus over knappen send slut *********/
+
     /*********** bagrunden *********/
 
     .sectionwrapper {
         border-radius: 5px;
         padding: 20px;
     }
+
     /*********** bagrunden slut *********/
+
     /*********** footer start *********/
 
     footer {
@@ -326,7 +347,9 @@
         font-family: 'Open Sans Condensed';
         margin: 10px
     }
+
     /*********** footer slut *********/
+
     /**
 HTML!!!!
 
