@@ -364,14 +364,15 @@ input[type=submit] {
     border-top: 3px solid black;
     width: 40vw;
 }
-<<<<<<< HEAD #kontakt .column {
+#kontakt .column {
     padding: 0 10px;
     flex-grow: 1;
 }
 #kontakt .content_mid {
     padding: 0 10px;
 }
-=======/*'''''''''''''''''' kontakt os''''''''''''''''''''*/
+
+/*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 #kontakt {
     background-color: #40648C;
 }
