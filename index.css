@@ -8,10 +8,7 @@
         height: 7.5vw;
         background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     /*******************design til header**********/
 
     .header {
@@ -51,7 +48,6 @@
         text-align: right;
         font-family: 'Oswald', sans-serif;
         margin: 0 5vw 0 0;
-<<<<<<< HEAD
     }
 
 
@@ -65,7 +61,7 @@
         }
     }
 
-=======
+
     }
 
     header nav a:hover {
@@ -78,22 +74,21 @@
         }
     }
 
->>>>>>> origin/master
+
     .lni {
         font-family: 'Oswald', sans-serif;
         text-align: left;
         font-size: 20px;
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     header nav a:hover {
         color: #025aa6;
         text-decoration: underline;
     }
+
     /*******************design til header slut**********/
+
     /*******************forside start**********/
 
     #forside {
@@ -103,7 +98,9 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
+
     /*******************design til header slut**********/
+
     /*******************forside start**********/
 
     #forside {
@@ -114,7 +111,7 @@
         background-size: contain;
     }
 
-<<<<<<< HEAD
+
     /*******************design til header slut**********/
 
     /*******************forside start**********/
@@ -160,13 +157,12 @@
         width: 100vw;
     }
 
-=======
->>>>>>> origin/master
+
     #forside .splash {
         height: 50vw;
         width: 100vw;
     }
-<<<<<<< HEAD
+
 
 
     /*******************forside slut**********/
@@ -255,7 +251,7 @@
 
     #sidste_nyt h1 {
         text-align: center;
-=======
+    }
 
     #forside .logo {
         height: 22vw;
@@ -276,7 +272,9 @@
         height: 50vw;
         width: 100vw;
     }
+
     /*******************forside slut**********/
+
     /*EMILIE ÆNDRER*/
 
     .sectionwrapper {
@@ -286,14 +284,14 @@
     #om .sectionwrapper {
         text-align: center;
         border: 1px black solid;
->>>>>>> origin/master
+
     }
 
     #vores_hold .sectionwrapper {
         text-align: center;
     }
 
-<<<<<<< HEAD
+
     /*EMILIE ÆNDRER*/
 
     /*******************design til om **********/
@@ -321,7 +319,8 @@
 
     #om sectionwrapper {
         background-color: white;
-=======
+    }
+
     #vores_hold .content_bot {
         display: flex;
         flex-wrap: wrap;
@@ -341,7 +340,9 @@
     .img_hold:hover {
         border-color: green;
     }
+
     /*******************forside slut**********/
+
     /*EMILIE ÆNDRER*/
 
     .sectionwrapper {
@@ -371,14 +372,12 @@
         border: 6px black solid;
         border-radius: 150px;
         margin: 0 35px
->>>>>>> origin/master
     }
 
     .img_hold:hover {
         border-color: yellowgreen;
     }
 
-<<<<<<< HEAD
     /*******************design til om slut **********/
 
     /*******************design til vores hold **********/
@@ -662,7 +661,6 @@
 
     /*********** footer slut *********/
 
-=======
     #vores_hold h3 {
         text-align: center;
         font-family: oswald;
@@ -676,7 +674,9 @@
     #sidste_nyt h1 {
         text-align: center;
     }
+
     /*EMILIE ÆNDRER*/
+
     /*******************design til om **********/
 
     #om h1 {
@@ -703,7 +703,9 @@
     #om sectionwrapper {
         background-color: white;
     }
+
     /*******************design til om slut **********/
+
     /*******************design til vores hold **********/
 
     #vores_hold {
@@ -721,11 +723,13 @@
         text-align: center;
     }
 
-<<<<<<< HEAD
+
     #sidste_nyt h1 {
         text-align: center;
     }
+
     /*EMILIE ÆNDRER*/
+
     /*******************design til om **********/
 
     #om h1 {
@@ -748,17 +752,19 @@
     #om h3 {
         font-family: 'Dancing Script', cursive;
     }
-=======
-#forside .splash {
-    height: 50vw;
-    width: 100vw;
-}
->>>>>>> origin/master
+
+    #forside .splash {
+        height: 50vw;
+        width: 100vw;
+    }
+
 
     #om sectionwrapper {
         background-color: white;
     }
+
     /*******************design til om slut **********/
+
     /*******************design til vores hold **********/
 
     #vores_hold {
@@ -774,7 +780,9 @@
         font-family: 'Open Sans Condensed', sans-serif;
         color: white;
     }
+
     /*******************design til vores hold slut **********/
+
     /*******************sidste nyt start **********/
 
     #sidste_nyt h1 {
@@ -803,7 +811,9 @@
         border-top: 3px solid black;
         width: 40vw;
     }
+
     /*******************sidste nyt slut **********/
+
     /*************** sponsorer***************/
 
     #sponsorer h1 {
@@ -820,7 +830,9 @@
         background-color: #40648C;
         padding: 5px 0;
     }
+
     /*************** sponsorer slut***************/
+
     /*************** design til login***************/
 
     input[type=text],
@@ -864,6 +876,7 @@
     #kontakt .content_mid {
         padding: 0 10px;
     }
+
     /*'''''''''''''''''' kontakt os''''''''''''''''''''*/
 
     #kontakt {
@@ -948,20 +961,26 @@
         border: 5px;
         height: 18px;
     }
+
     /*************** design til login slut***************/
+
     /********* når man holder mus over knappen send *********/
 
     input[type=submit]:hover {
         background-color: #033C72;
     }
+
     /********* når man holder mus over knappen send slut *********/
+
     /*********** bagrunden *********/
 
     .sectionwrapper {
         border-radius: 5px;
         padding: 20px;
     }
+
     /*********** bagrunden slut *********/
+
     /*********** footer start *********/
 
     footer {
@@ -969,8 +988,9 @@
         font-family: 'Open Sans Condensed';
         margin: 10px
     }
+
     /*********** footer slut *********/
->>>>>>> origin/master
+
     /**
 HTML!!!!
 
