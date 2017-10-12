@@ -72,28 +72,36 @@
     /*******************design til header slut**********/
     /*******************forside start**********/
 
-    #forside {
-        background-image: url(img/test4.jpg);
-        width: 100%;
-        height: 59vw;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+
+
     /*******************design til header slut**********/
     /*******************forside start**********/
 
     #forside {
-        background-image: url(img/test4.jpg);
-        width: 100%;
-        height: 59vw;
+        background-image: url(img/mobiltest.jpg);
+        width: 100vw;
+        height: 167vw;
+/*        height: 59vw;*/
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: contain;;
     }
 
-    #forside .splash {
-        height: 50vw;
+
+@media screen and (min-width: 627px) and (orientation: landscape) {
+    #splash {
+        background-image: url(img/mobiltest.jpg);
+        height: 56vw;
         width: 100vw;
     }
+}
+
+
+
+
+
+
+
+x
 
     #forside .logo {
         height: 22vw;
