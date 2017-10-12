@@ -56,12 +56,8 @@ header nav {
         background-image: url(img/test4.jpg);
         height: 56vw;
     }
-
-    @media screen and (min-width: 627px) and (orientation: landscape) {
-        #splash
-    }
-
 }
+
 
 #forside .logo {
     height: 22vw;
