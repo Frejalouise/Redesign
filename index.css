@@ -1,4 +1,3 @@
-<<<<<<< HEAD
     /*******************design til header**********/
 
     .header {
@@ -9,7 +8,7 @@
         height: 7.5vw;
         background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(0,0,0,0) 100%);
     }
-=======
+
 /*******************design til header**********/
 
 .header {
@@ -21,7 +20,7 @@
     background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-<<<<<<< HEAD header nav a {
+header nav a {
     text-decoration: none;
     color: black;
     padding-right: 4px;
@@ -38,7 +37,7 @@ header nav a:hover {
     color: #025aa6;
 }
 
-=======header nav a {
+header nav a {
     text-decoration: none;
     color: black;
     padding-right: 4px;
@@ -50,13 +49,13 @@ header nav {
     font-family: 'Oswald', sans-serif;
     margin: 0 5vw 0 0;
 }
->>>>>>> origin/master
+
 
 header nav a:hover {
     color: #025aa6;
 }
 
->>>>>>>origin/master @media screen and (min-width: 680px) {
+ @media screen and (min-width: 680px) {
     header nav a {
         display: inline-block;
     }
@@ -68,15 +67,14 @@ header nav a:hover {
     font-size: 20px;
 }
 
-<<<<<<< HEAD
-    header nav a:hover {
+
+header nav a:hover {
         color: #025aa6;
         text-decoration: underline;
     }
-=======
-<<<<<<< HEAD
+
 /*******************design til header slut**********/
->>>>>>> origin/master
+
 
 
 /*******************forside start**********/
@@ -112,11 +110,10 @@ header nav a:hover {
 #forside .logo {
     height: 22vw;
     width: 25vw;
-=======
+}
 #forside .splash {
     height: 50vw;
     width: 100vw;
->>>>>>> origin/master
 }
 
 #forside .splash {
@@ -168,7 +165,6 @@ header nav a:hover {
     border-color: green;
 }
 
-=======
 /*******************forside slut**********/
 
 
@@ -250,7 +246,6 @@ header nav a:hover {
 
 #om sectionwrapper {
     background-color: white;
-    >>>>>>>origin/master
 }
 
 
@@ -261,12 +256,9 @@ header nav a:hover {
 
 #vores_hold {
     background-color: #40648C;
-    =======border-color: palegreen;
-    >>>>>>>origin/master
+    border-color: palegreen;
 }
 
-
-}
 #vores_hold h3 {
     text-align: center;
     font-family: oswald;
@@ -465,7 +457,7 @@ input[type=submit] {
     border: 5px;
     height: 18px;
 }
->>>>>>>origin/master
+
 /*************** design til login slut***************/
 
 /********* når man holder mus over knappen send *********/
