@@ -2,6 +2,11 @@
 
     .header {
         padding: 1em;
+        position: absolute;
+        text-align: right;
+        width: 95vw;
+        height: 5vw;
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(0,0,0,0) 100%);
     }
 
     header nav a {
@@ -37,17 +42,30 @@
 
     /*******************forside start**********/
 
-    #forside {
-        background-image: url(img/test4.jpg);
-        height: 50vw;
-        width: 100vw;
-    }
+#forside {
+    background-image: url(img/test4.jpg);
+    width: 100%;
+    height: 59vw;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#forside .splash {
+    height: 50vw;
+    width: 100vw;
+}
+
+
 
     #forside .splash {
         height: 50vw;
         width: 100vw;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     /*******************forside slut**********/
 
     /*EMILIE ÆNDRER*/
@@ -81,20 +99,16 @@
         margin: 0 35px
     }
 
-    .img_hold1 {
-        height: 15vw;
-        width: 15vw;
-        border: 6px black solid;
-        border-radius: 150px;
-        margin: 0 35px
-    }
-
     .img_hold:hover {
+<<<<<<< HEAD
         border-color: yellowgreen;
     }
 
     .img_hold1:hover {
         border-color: o;
+=======
+        border-color: lightgoldenrodyellow;
+>>>>>>> origin/master
     }
 
     #vores_hold h3 {
@@ -268,10 +282,17 @@
     #kontakt .content_top {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        flex-basis: 300vw;
-        flex-grow: 1;
+        justify-content: space-between;
     }
+
+#kontakt .column {
+    padding: 0 10px;
+    flex-grow: 1;
+    }
+
+#kontakt .content_mid {
+    padding: 0 10px;
+}
 
     #kontakt .column {
         width: 20vw;
