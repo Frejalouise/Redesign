@@ -1,4 +1,4 @@
-/*******************design til header**********/
+/*******************HEADER**********/
 
 .header {
     padding: 1em;
@@ -14,13 +14,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-
-/*******************design til header slut**********/
-
-
-
-
-/*******************forside start**********/
+/*******************FORSIDE**********/
 
 #forside {
     background-image: url(img/mobiltest.jpg);
@@ -32,15 +26,14 @@ header nav a:hover {
     ;
 }
 
-@media screen and (min-width: 627px) and (orientation: landscape) {
-    #splash {
-        background-image: url(img/mobiltest.jpg);
+@media screen and (min-width: 680px) and (orientation: landscape) {
+    #forside {
+        background-image: url(img/test4.jpg);
         height: 56vw;
         width: 100vw;
     }
 }
-
-x #forside .logo {
+#forside .logo {
     height: 22vw;
     width: 25vw;
 }
@@ -77,112 +70,6 @@ header nav a:hover {
     }
 }
 
-
-<<<<<<< HEAD
-=======
-}
-
-header nav a:hover {
-    color: #025aa6;
-}
-
-@media screen and (min-width: 680px) {
-    header nav a {
-        display: inline-block;
-    }
-}
-
->>>>>>> origin/master
-.lni {
-    font-family: 'Oswald', sans-serif;
-    text-align: left;
-    font-size: 20px;
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
-header nav a:hover {
-    color: #025aa6;
-    text-decoration: underline;
-}
-
-<<<<<<< HEAD
-=======
-/*******************design til header slut**********/
-
-/*******************forside start**********/
-
-#forside {
-    background-image: url(img/test4.jpg);
-    width: 100%;
-    height: 59vw;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-/*******************design til header slut**********/
-
-/*******************forside start**********/
-
-#forside {
-    background-image: url(img/test4.jpg);
-    width: 100%;
-    height: 59vw;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-/*******************design til header slut**********/
-
-/*******************forside start**********/
-
-#forside {
-    background-image: url(img/test4.jpg);
-    width: 100%;
-    height: 59vw;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-/*******************design til header slut**********/
-
-/*******************forside start**********/
-
-#forside {
-    background-image: url(img/test4.jpg);
-    width: 100%;
-    height: 59vw;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
->>>>>>> origin/master
-#forside .splash {
-    height: 50vw;
-    width: 100vw;
-}
-
-#forside .logo {
-    height: 22vw;
-    width: 25vw;
-}
-
-#forside .splash {
-    height: 50vw;
-    width: 100vw;
-}
-
-#forside .splash {
-    height: 50vw;
-    width: 100vw;
-}
-
-#forside .splash {
-    height: 50vw;
-    width: 100vw;
-}
 
 /*******************forside slut**********/
 
