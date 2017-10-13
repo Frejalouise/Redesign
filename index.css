@@ -10,16 +10,17 @@
     padding: 1em;
     position: absolute;
     text-align: right;
-    width: 95vw;
+    width: 96vw;
     height: 7.5vw;
     background: linear-gradient(to bottom, rgba(255,255,255,0.99) 0%,rgba(0,0,0,0) 100%);
-}
 
+}
 
 header nav a:hover {
 
     color: #025aa6;
     text-decoration: underline;
+
 }
 
 
@@ -53,15 +54,16 @@ header nav {
 
 @media screen and (min-width: 680px) and (orientation: landscape) {
     #forside {
-        background-image: url(img/test4.jpg);
-        height: 56vw;
+        background-image: url(img/splashimg.jpg);
+        height: 45vw;
+        background-size: contain;
     }
 }
 
 
 #forside .logo {
-    height: 22vw;
-    width: 25vw;
+    height: 20vw;
+    width: 22vw;
 }
 
 
@@ -176,6 +178,14 @@ header nav {
 #vores_hold p {
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
+}
+
+#vores_hold .content_top {
+    text-align: center;
+}
+.menneskerimg {
+    height: 25vw;
+
 }
 
 
